@@ -1,0 +1,5 @@
+body { background: #f7fafc; }
+.navbar-brand { font-weight: 700; }
+.card { border-radius: 10px; box-shadow: 0 4px 18px rgba(12, 38, 63, 0.06); }
+.sticky-top { top: 20px; }
+#chart-area { background: #ffffff; padding: 14px; border-radius: 8px; }
