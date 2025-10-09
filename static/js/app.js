@@ -374,6 +374,24 @@ document.getElementById('preview-series')?.addEventListener('click', async () =>
 document.getElementById('btn-get-status').addEventListener('click', loadSession);
 window.addEventListener('load', loadSession);
 
+// Visualize stored predictions (fetch and render)
+document.getElementById('visualize-predictions')?.addEventListener('click', async () => {
+  try {
+    const res = await fetch('/api/get-predictions');
+    const j = await res.json();
+    if (j.error) { toast('Predictions', j.error); return; }
+    if (j.preview && j.preview.length>0) {
+      renderPredsTable(j.preview);
+      renderPredsChart(j.preview);
+      document.getElementById('download-preds').style.display = 'inline-block';
+      document.getElementById('download-preds').onclick = ()=>{ window.location='/download/predictions'; };
+      toast('Predictions', 'Loaded stored predictions');
+    } else {
+      toast('Predictions', 'No predictions available to visualize');
+    }
+  } catch (err) { console.error(err); toast('Predictions','Failed to load predictions'); }
+});
+
 // make Reload Session create a new session (fresh SID cookie) then load session state
 document.getElementById('btn-get-status').addEventListener('click', async () => {
   try {

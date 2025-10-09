@@ -550,7 +550,8 @@ def api_predict():
                 if times is not None and len(times) == N:
                     t = pd.to_datetime(times).reset_index(drop=True)
                     t = t.iloc[n_lags:].reset_index(drop=True)
-                    df_l['time_ord'] = t.map(lambda d: d.toordinal() if not pd.isna(d) else 0)
+                    # use relative time index (0..N) instead of raw ordinals to keep feature scales small
+                    df_l['time_ord'] = list(range(len(t)))
                     df_l['month'] = t.dt.month.fillna(0).astype(int)
                 else:
                     df_l['time_ord'] = list(range(len(df_l)))
@@ -558,6 +559,17 @@ def api_predict():
                 # add rolling stats of recent values
                 df_l['roll_mean_3'] = df_l[[f'lag_{i}' for i in range(1, min(4, n_lags+1))]].mean(axis=1)
                 df_l['roll_std_3'] = df_l[[f'lag_{i}' for i in range(1, min(4, n_lags+1))]].std(axis=1).fillna(0)
+                # short differences and trend-ish features
+                if n_lags >= 2:
+                    df_l['lag_diff_1'] = df_l['lag_1'] - df_l['lag_2']
+                else:
+                    df_l['lag_diff_1'] = 0.0
+                # approximate short-term slope over last min(3,n_lags) lags
+                last_span = min(3, n_lags)
+                if last_span >= 2:
+                    df_l['trend_3'] = (df_l['lag_1'] - df_l[f'lag_{last_span}']) / float(max(1, last_span-1))
+                else:
+                    df_l['trend_3'] = 0.0
                 return df_l
 
             n_lags = int(payload.get('n_lags', 6) or 6)
@@ -566,14 +578,15 @@ def api_predict():
             lagdf = make_lag_features(series, times=times, n_lags=n_lags)
             if not lagdf.empty:
                 # training features and target
-                feature_cols = [c for c in lagdf.columns if c.startswith('lag_')] + ['time_ord', 'month', 'roll_mean_3', 'roll_std_3']
+                # include new diff/trend features
+                feature_cols = [c for c in lagdf.columns if c.startswith('lag_')] + ['time_ord', 'month', 'roll_mean_3', 'roll_std_3', 'lag_diff_1', 'trend_3']
                 X = lagdf[feature_cols].astype(float).fillna(0)
                 y = lagdf['y'].astype(float).fillna(0)
                 use_xgb = (ml_model.lower() == 'xgboost' and XGBOOST_AVAILABLE)
                 if use_xgb:
-                    model = XGBRegressor(objective='reg:squarederror', n_estimators=200)
+                    model = XGBRegressor(objective='reg:squarederror', n_estimators=100, random_state=42)
                 else:
-                    model = RandomForestRegressor(n_estimators=200)
+                    model = RandomForestRegressor(n_estimators=100, random_state=42)
                 model.fit(X, y)
                 # prepare iterative forecasting using separate lag values and fresh time features each step
                 full_last = X.values[-1].astype(float)
@@ -584,6 +597,9 @@ def api_predict():
                 last_time = pd.to_datetime(df_model[time_col].iloc[-1]) if time_col in df_model.columns else None
                 for h in range(horizon):
                     # compute future time features
+                    # Use relative time index for forecasting: continue index after training rows
+                    time_ord = float(len(X) + h + 1)
+                    # month for seasonality can still be derived from calendar if we have last_time
                     if last_time is not None:
                         if freq == 'D':
                             fut_time = last_time + pd.DateOffset(days=h+1)
@@ -593,10 +609,8 @@ def api_predict():
                             fut_time = last_time + pd.DateOffset(years=h+1)
                         else:
                             fut_time = last_time + pd.DateOffset(months=h+1)
-                        time_ord = float(fut_time.toordinal())
                         month = float(fut_time.month)
                     else:
-                        time_ord = float(len(X) + h)
                         month = 0.0
 
                     # compute rolling stats from current lag_vals
@@ -608,13 +622,57 @@ def api_predict():
                         roll_mean_3 = 0.0
                         roll_std_3 = 0.0
 
-                    # assemble feature vector: [lag_1..lag_n, time_ord, month, roll_mean_3, roll_std_3]
-                    x_in = np.concatenate([lag_vals, np.array([time_ord, month, roll_mean_3, roll_std_3], dtype=float)])
+                    # assemble feature vector to match training columns: [lag_1..lag_n, time_ord, month, roll_mean_3, roll_std_3, lag_diff_1, trend_3]
+                    try:
+                        lag_diff_1 = float(lag_vals[0] - lag_vals[1]) if len(lag_vals) > 1 else 0.0
+                    except Exception:
+                        lag_diff_1 = 0.0
+                    try:
+                        last_span = min(3, len(lag_vals))
+                        if last_span >= 2:
+                            trend_3 = float((lag_vals[0] - lag_vals[last_span-1]) / float(max(1, last_span-1)))
+                        else:
+                            trend_3 = 0.0
+                    except Exception:
+                        trend_3 = 0.0
+                    x_in = np.concatenate([lag_vals, np.array([time_ord, month, roll_mean_3, roll_std_3, lag_diff_1, trend_3], dtype=float)])
                     # predict
                     try:
+                        # validate feature vector length matches training
+                        expected_len = X.shape[1]
+                        if x_in.shape[0] != expected_len:
+                            app.logger.debug(f'Feature length mismatch during iterative forecast: got {x_in.shape[0]}, expected {expected_len}')
+                            # pad or trim
+                            if x_in.shape[0] < expected_len:
+                                pad = np.zeros(expected_len - x_in.shape[0], dtype=float)
+                                x_in = np.concatenate([x_in, pad])
+                            else:
+                                x_in = x_in[:expected_len]
+                        # replace any NaN/inf in features with last observed mean or zero
+                        if not np.isfinite(x_in).all():
+                            finite_mask = np.isfinite(x_in)
+                            if finite_mask.any():
+                                fill_val = float(np.nanmean(x_in[finite_mask]))
+                            else:
+                                fill_val = float(np.nanmean(X.values)) if X.size>0 else 0.0
+                            x_in = np.where(np.isfinite(x_in), x_in, fill_val)
                         p = float(model.predict(x_in.reshape(1, -1))[0])
-                    except Exception:
-                        p = float(np.nan)
+                        if not np.isfinite(p):
+                            raise ValueError('Non-finite prediction')
+                    except Exception as ex:
+                        # fallback: use last observed value or linear extrapolation if available
+                        try:
+                            # last observed (lag_1)
+                            fallback = float(lag_vals[0])
+                        except Exception:
+                            fallback = 0.0
+                        # if linear_future is available for this horizon step, prefer it
+                        try:
+                            if 'linear_future' in locals():
+                                fallback = float(linear_future[h])
+                        except Exception:
+                            pass
+                        p = fallback
                     future.append(p)
                     # label for display
                     if last_time is not None:
@@ -636,6 +694,31 @@ def api_predict():
                     else:
                         lag_vals[0] = p
                 ml_preds = pd.DataFrame({f'{target}_predicted': future})
+                # compute recent linear trend from last observed points for blending
+                try:
+                    k = min(8, len(series))
+                    if k >= 2:
+                        y_hist = np.array(series.dropna().astype(float).tolist()[-k:])
+                        x_hist = np.arange(len(y_hist)).astype(float)
+                        coef = np.polyfit(x_hist, y_hist, 1)
+                        slope, intercept = float(coef[0]), float(coef[1])
+                        last_idx = x_hist[-1]
+                        linear_future = np.array([intercept + slope * (last_idx + i + 1) for i in range(horizon)])
+                        # blend ML predictions with linear extrapolation depending on ML variance and recent trend agreement
+                        ml_vals = ml_preds[f'{target}_predicted'].astype(float).values
+                        # only compute variance and sign if no NaNs
+                        if not np.isnan(ml_vals).any():
+                            ml_var = float(np.nanvar(ml_vals))
+                            # if ml variance is extremely low or sign of slope differs, lean more on linear trend
+                            slope_sign = np.sign(slope) if not np.isnan(slope) else 0
+                            ml_sign = np.sign(ml_vals[-1] - ml_vals[0])
+                            blend = 0.5
+                            if ml_var < 1e-3 or (slope_sign != 0 and slope_sign != ml_sign):
+                                blend = 0.2
+                            blended = blend * ml_vals + (1.0 - blend) * linear_future
+                            ml_preds[f'{target}_predicted'] = blended.tolist()
+                except Exception:
+                    pass
                 # If tree-based models (RandomForest/XGBoost) predict nearly constant values
                 # over the horizon (a common issue when using time ordinal with trees),
                 # fallback to a simple linear extrapolation using recent data trend.
