@@ -1,7 +1,9 @@
 Flask>=2.0
-pandas
+matplotlib
 numpy
-plotly
 openpyxl
+pandas
+plotly
+pmdarima
 scikit-learn
 xgboost

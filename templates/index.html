@@ -13,9 +13,12 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Sales Prediction & Data Viz</a>
-    <div class="d-flex">
-      <button id="btn-get-status" class="btn btn-outline-light btn-sm me-2">Reload Session</button>
+    <a class="navbar-brand" href="#">Sales Prediction & Data Visualization</a>
+    <div class="d-flex align-items-center">
+      <div class="me-2">
+        <span id="session-badge" class="badge bg-secondary">Session: --</span>
+      </div>
+      <button id="btn-get-status" class="btn btn-outline-light btn-sm me-2">Start New Session</button>
       <button id="download-clean" class="btn btn-success btn-sm me-2" style="display:none">Download Cleaned</button>
       <button id="download-preds" class="btn btn-success btn-sm" style="display:none">Download Predictions</button>
     </div>
@@ -28,11 +31,14 @@
       <div class="card sticky-top">
         <div class="card-body">
           <h5>Upload & Clean</h5>
-          <input id="file-input" type="file" class="form-control mb-2" accept=".csv,.xls,.xlsx">
+          <input id="file-input" type="file" class="form-control mb-2" accept=".csv, text/csv, application/vnd.ms-excel, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, .xls, .xlsx">
           <div id="upload-status" class="mb-2 small text-muted"></div>
           <button id="btn-clean" class="btn btn-primary btn-sm w-100 mb-3" disabled>Auto Clean</button>
-          <div class="mb-3"><small id="rows-info"></small></div>
-          <hr/>
+          <div class="form-check mb-2">
+            <input class="form-check-input" type="checkbox" value="" id="force-clean">
+            <label class="form-check-label small" for="force-clean">Force re-clean (overwrite cleaned data)</label>
+          </div>
+          <!-- Visualize series and quick-run prediction buttons removed from Upload & Clean panel -->
           <h6>Visualization</h6>
           <div class="mb-2">
             <label class="form-label">Chart Type</label>
@@ -90,8 +96,39 @@
             <label class="form-label">Horizon (months)</label>
             <input id="horizon" type="number" class="form-control" min="1" value="6">
           </div>
+          <div class="mb-2">
+            <label class="form-label">Frequency</label>
+            <select id="freq-select" class="form-select">
+              <option value="auto">Auto</option>
+              <option value="D">Daily</option>
+              <option value="W">Weekly</option>
+              <option value="M" selected>Monthly</option>
+              <option value="Y">Yearly</option>
+            </select>
+          </div>
           <div class="d-grid gap-2">
             <button id="run-predict" class="btn btn-warning btn-sm">Run Prediction</button>
+          </div>
+          <div class="mb-2 mt-2">
+            <label class="form-label">Prediction chart type</label>
+            <select id="pred-chart-type" class="form-select form-select-sm">
+              <option value="line" selected>Line</option>
+              <option value="bar">Bar</option>
+              <option value="scatter">Scatter</option>
+              <option value="area">Area</option>
+            </select>
+          </div>
+          <div class="form-check mt-2">
+            <input class="form-check-input" type="checkbox" value="" id="aggregate-before">
+            <label class="form-check-label small" for="aggregate-before">Aggregate/resample data before modeling</label>
+          </div>
+          <div class="mb-2 mt-2">
+            <label class="form-label small">Aggregation method</label>
+            <select id="aggregate-method" class="form-select form-select-sm">
+              <option value="sum" selected>Sum</option>
+              <option value="mean">Mean</option>
+              <option value="last">Last</option>
+            </select>
           </div>
         </div>
       </div>
@@ -109,6 +146,11 @@
         <div class="card-body">
           <h5>Chart</h5>
           <div id="chart-area" style="min-height:420px"></div>
+          <!-- placeholders for model comparison charts -->
+          <div id="compare-charts" style="display:none; gap:1rem; margin-top:1rem;">
+            <div id="chart-arima" style="flex:1; min-height:200px"></div>
+            <div id="chart-ml" style="flex:1; min-height:200px"></div>
+          </div>
         </div>
       </div>
 
@@ -117,6 +159,7 @@
           <h5>Predictions</h5>
           <div id="pred-metrics"></div>
           <div id="pred-preview" class="table-responsive" style="max-height:240px; overflow:auto"></div>
+          <div id="combined-table" style="display:none; margin-top:0.5rem"></div>
         </div>
       </div>
 
@@ -125,5 +168,10 @@
 </div>
 
 <script src="/static/js/app.js"></script>
+
+<!-- Toast container -->
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+  <div id="toast-container"></div>
+</div>
 </body>
 </html>
