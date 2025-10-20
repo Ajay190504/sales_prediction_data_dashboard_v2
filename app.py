@@ -11,7 +11,10 @@ except Exception:
     XGBOOST_AVAILABLE = False
 
 ALLOWED_EXT = {'.csv', '.xls', '.xlsx'}
-UPLOAD_DIR = 'sessions'
+# Make upload/session directory configurable for Docker or mounted volumes. Default to a `sessions` folder
+# located next to this file to avoid surprising CWD issues when running under different runtimes.
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+UPLOAD_DIR = os.environ.get('SESSIONS_DIR', os.path.join(BASE_DIR, 'sessions'))
 
 
 import base64
@@ -108,11 +111,36 @@ def auto_clean(df: pd.DataFrame):
             coerced = pd.to_numeric(df[col].astype(str).str.replace(',','').str.strip(), errors='coerce')
             if coerced.notna().mean() > 0.5:
                 df[col] = coerced
+    # For numeric columns fill missing values with the column mean (user requested behavior)
     for col in df.select_dtypes(include=[np.number]).columns:
         if df[col].isna().any():
-            df[col].fillna(df[col].median(), inplace=True)
+            try:
+                mean_val = float(df[col].mean())
+                # avoid chained-assignment warnings by assigning back
+                df[col] = df[col].fillna(mean_val)
+            except Exception:
+                # fallback to median if mean computation fails for any reason
+                try:
+                    df[col] = df[col].fillna(df[col].median())
+                except Exception:
+                    pass
     for col in df.select_dtypes(include=['object']).columns:
-        df[col].fillna('Unknown', inplace=True)
+        df[col] = df[col].fillna('Unknown')
+    # Recalculate Total column when possible (Price * Quantity) if Total is missing or zero
+    if {'Price','Quantity','Total'}.issubset(set(df.columns)):
+        try:
+            # coerce numeric versions
+            price_num = pd.to_numeric(df['Price'].astype(str).str.replace('[^0-9.+-]', '', regex=True), errors='coerce')
+            qty_num = pd.to_numeric(df['Quantity'].astype(str).str.replace('[^0-9.+-]', '', regex=True), errors='coerce')
+            total_num = pd.to_numeric(df['Total'].astype(str).str.replace('[^0-9.+-]', '', regex=True), errors='coerce')
+            need_fix = total_num.isna() | (total_num == 0)
+            computed = (price_num * qty_num).where(~(price_num.isna() | qty_num.isna()))
+            # assign computed totals where needed
+            df.loc[need_fix & computed.notna(), 'Total'] = computed[need_fix & computed.notna()]
+            # attempt to coerce Total to numeric column
+            df['Total'] = pd.to_numeric(df['Total'], errors='coerce')
+        except Exception:
+            pass
     return df
 
 def df_to_excel_bytes(df: pd.DataFrame):
@@ -636,7 +664,7 @@ def api_predict():
                     except Exception:
                         trend_3 = 0.0
                     x_in = np.concatenate([lag_vals, np.array([time_ord, month, roll_mean_3, roll_std_3, lag_diff_1, trend_3], dtype=float)])
-                    # predict
+                    # predict - construct a DataFrame with column names to avoid sklearn feature-name warnings
                     try:
                         # validate feature vector length matches training
                         expected_len = X.shape[1]
@@ -656,7 +684,9 @@ def api_predict():
                             else:
                                 fill_val = float(np.nanmean(X.values)) if X.size>0 else 0.0
                             x_in = np.where(np.isfinite(x_in), x_in, fill_val)
-                        p = float(model.predict(x_in.reshape(1, -1))[0])
+                        # map x_in back to feature column names
+                        x_dict = {col: float(x_in[idx]) for idx, col in enumerate(feature_cols)}
+                        p = float(model.predict(pd.DataFrame([x_dict]))[0])
                         if not np.isfinite(p):
                             raise ValueError('Non-finite prediction')
                     except Exception as ex:
@@ -850,4 +880,8 @@ def download_predictions():
 
 if __name__=='__main__':
     os.makedirs(UPLOAD_DIR, exist_ok=True)
-    app.run(debug=True, port=5000)
+    # Respect PORT and FLASK_DEBUG environment variables when running directly (Docker / cloud friendly)
+    port = int(os.environ.get('PORT', 5000))
+    host = os.environ.get('HOST', '0.0.0.0')
+    debug = os.environ.get('FLASK_DEBUG', '0') == '1'
+    app.run(debug=debug, host=host, port=port)

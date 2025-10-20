@@ -1,0 +1,1001 @@
+Date,OrderID,Product,Size,Price,Quantity,Total,Store,Staff,Notes
+04/04/2024,ORD100116,Chamomile Blend,S,3.51,1,3.51,Airport,Diana,coupon
+Feb 09 2023,ORD100120,Mint Tea,L,,,,Downtown,Alice,promo
+21/11/2024,ORD100742,Oolong,S,3.89,1,3.89,Mall,Bob,
+15/06/2023,ORD100747,Earl Grey,L,6.48,1,6.48,Suburb,Alice,
+22-Oct-2023,ORD100067,Mint Tea,S,1.69,3,5.07,Airport,Alice,
+09-Nov-2023,ORD100739,Earl Grey,S,$5.63,1,5.63,Uptown,Evan,coupon
+07-Sep-2023,ORD100069,Chamomile Blend,S,3.99,1,3.99,Suburb,Diana,coupon
+13/09/2024,ORD100709,Oolong,L,10.79,1,10.79,Downtown,Chen,
+2023-08-27,ORD100645,Mint Tea,M,5.42,1,5.42,Downtown,Diana,promo
+Sep 26 2024,ORD100395,Lemon Tea,S,$3.58,2,7.16,Uptown,Evan,promo
+2024-05-05,ORD100885,Black Tea,S,3.13,3,9.39,Uptown,Diana,coupon
+12-Aug-2024,ORD100254,Earl Grey,S,2.64,3,7.92,Airport,Alice,coupon
+10/09/2024,ORD100455,Chamomile Blend,S,4.14,2,8.28,Suburb,Evan,
+2024-09-04,ORD100458,Lemon Tea,M,4.35,1,4.35,Airport,Alice,promo
+09-Jun-2024,ORD100762,Chamomile Blend,L,9.28,1,9.28,Airport,Alice,
+2023-08-23,ORD100006,Earl Grey,M,3.89,3,11.67,Mall,Diana,
+Aug 19 2023,ORD100320,Lemon Tea,L,9.45,1,9.45,Uptown,Alice,promo
+31-Jan-2023,ORD100607,Oolong,S,6.16,1,6.16,Uptown,Diana,
+2024-11-15,ORD100184,Green Tea,M,2.87,,,Airport,Diana,
+14/09/2023,ORD100642,Black Tea,M,"3.66,00",1,3.66,Uptown,Alice,
+04/08/2023,ORD100327,Matcha,S,2.84,3,8.52,Downtown,Bob,coupon
+2023-05-13,ORD100617,Herbal Mix,M,5.49,1,5.49,Downtown,Evan,
+06/11/2024,ORD100835,Black Tea,S,$7.82,1,7.82,Mall,Diana,
+2023-01-31,ORD100001,Herbal Mix,S,$4.78,1,4.78,Airport,Diana,coupon
+10/02/2023,ORD100322,Earl Grey,L,2.75,3,8.25,Airport,Evan,coupon
+14/06/2023,ORD100333,Herbal Mix,L,10.39,2,20.78,Airport,Diana,
+17/12/2024,ORD100224,Matcha,L,$3.14,1,3.14,Uptown,Evan,
+Nov 05 2024,ORD100229,Herbal Mix,L,8.17,3,24.51,Uptown,Diana,promo
+01/12/2024,ORD100750,Green Tea,L,10.34,1,10.34,Suburb,Chen,
+10/08/2024,ORD100097,Matcha,L,11.75,3,35.25,Airport,Chen,coupon
+22/04/2023,ORD100480,Chamomile Blend,M,3.5,3,10.5,Downtown,Alice,coupon
+2024-12-24,ORD100603,Mint Tea,M,9.31,2,18.62,Downtown,Evan,
+13-Jan-2024,ORD100707,Lemon Tea,L,8.67,,,Suburb,Alice,
+Nov 08 2024,ORD100347,Black Tea,S,4.42,1,4.42,Mall,Evan,promo
+04/06/2023,ORD100511,Chamomile Blend,L,2.47,1,2.47,Mall,Diana,
+08-Oct-2023,ORD100801,Black Tea,M,8.62,1,8.62,Suburb,Bob,
+Jul 28 2023,ORD100142,Lemon Tea,S,,1,3.53,Uptown,Chen,
+17/03/2023,ORD100023,Chamomile Blend,M,,1,2.83,Uptown,Diana,coupon
+2023-04-04,ORD100625,Black Tea,L,3.89,1,3.89,Mall,Bob,coupon
+11-Feb-2023,ORD100580,Earl Grey,L,7.72,3,23.16,Downtown,Chen,coupon
+12/01/2024,ORD100165,Herbal Mix,S,4.61,1,4.61,Airport,Diana,promo
+20-Apr-2024,ORD100051,Earl Grey,S,,1,,Suburb,Chen,coupon
+26/07/2024,ORD100287,Earl Grey,L,3.12,1,3.12,Suburb,Chen,coupon
+20/04/2024,ORD100495,Chamomile,S,2.76,2,5.52,Uptown,Alice,coupon
+2024-02-03,ORD100042,Lemon Tea,M,5.52,2,11.04,Mall,Evan,promo
+Jun 25 2024,ORD100009,Chamomile Blend,S,$5.92,2,11.84,Suburb,Alice,promo
+2023-04-14,ORD100654,Oolong,M,6.91,1,6.91,Uptown,Chen,promo
+28/07/2023,ORD100887,Chamomile Blend,S,3.48,3,10.44,Uptown,Alice,
+2023-02-08,ORD100328,Black Tea,S,2.66,1,2.66,Mall,Diana,
+04/08/2024,ORD100162,Oolong,L,10.6,2,21.2,Mall,Alice,promo
+2024-03-25,ORD100062,minttea,L,5.21,2,10.42,Downtown,Evan,
+19-Jul-2023,ORD100677,Green Tea,S,3.13,3,9.39,Mall,Diana,promo
+2023-05-16,ORD100892,Chamomile,L,$11.52,1,11.52,Suburb,Chen,
+2024-04-09,ORD100567,Green Tea,L,8.51,,,Uptown,Chen,
+2024-09-09,ORD100520,Earl Grey,M,2.95,,,Suburb,Chen,
+05-Nov-2024,ORD100470,Earl Grey,S,3.2,2,6.4,Suburb,Alice,promo
+11/02/2024,ORD100180,Chamomile Blend,M,7.85,1,7.85,Suburb,Evan,
+14-Nov-2023,ORD100233,Herbal Mix,S,3.09,2,6.18,Suburb,Bob,promo
+17-Nov-2023,ORD100714,Lemon Tea,L,$2.27,2,4.54,Mall,Diana,coupon
+2024-04-21,ORD100466,Chamomile Blend,L,3.11,3,9.33,Airport,Evan,
+Sep 19 2023,ORD100565,Black Tea,S,3.43,2,6.86,Mall,Alice,
+11/09/2024,ORD100025,Earl Grey,S,5.97,1,5.97,Downtown,Alice,coupon
+2023-06-10,ORD100060,Matcha,M,,1,7.18,Mall,Alice,coupon
+23-Jul-2023,ORD100078,Mint Tea,S,3.04,3,9.12,Mall,Chen,
+18/03/2024,ORD100193,Lemon Tea,L,5.96,1,5.96,Downtown,Chen,promo
+Mar 05 2023,ORD100800,Matcha,M,"3.46,00",3,10.38,Suburb,Bob,
+Dec 26 2024,ORD100261,Mint Tea,S,3.22,1,3.22,Downtown,Alice,
+2023-04-22,ORD100841,Herbal Mix,S,$2.93,1,2.93,Uptown,Alice,coupon
+2023-07-24,ORD100046,Lemon Tea,S,3.05,1,3.05,Suburb,Chen,
+Jul 16 2023,ORD100387,Matcha,S,2.29,2,4.58,Downtown,Bob,
+22-Sep-2024,ORD100050,Mint Tea,M,8.24,1,8.24,Downtown,Chen,promo
+2023-06-08,ORD100114,Chamomile,S,4.8,2,9.6,Suburb,Evan,
+07-Oct-2023,ORD100661,Green Tea,S,4.37,1,4.37,Airport,Evan,
+02/10/2024,ORD100061,Matcha,S,5.04,1,5.04,Uptown,Chen,coupon
+21-Nov-2024,ORD100401,Matcha,S,2.58,1,2.58,Airport,Evan,coupon
+Dec 25 2023,ORD100112,Matcha,S,5.37,2,10.74,Suburb,Bob,
+18/03/2024,ORD100864,Green Tea,S,2.42,2,4.84,Airport,Bob,coupon
+May 26 2024,ORD100666,Earl Grey,S,4.22,3,12.66,Suburb,Evan,
+16-Nov-2024,ORD100015,Herbal Mix,L,3.54,2,7.08,Mall,Diana,
+Jan 15 2024,ORD100132,Mint Tea,S,5.23,3,15.69,Downtown,Alice,
+2023-04-22,ORD100798,Oolong,L,3.31,2,6.62,Suburb,Alice,
+Jul 04 2024,ORD100214,Oolong,M,6.21,2,12.42,Downtown,Chen,coupon
+04/10/2023,ORD100833,Oolong,L,6.74,2,13.48,Mall,Diana,promo
+21/11/2024,ORD100368,Matcha,L,3.23,1,3.23,Uptown,Chen,coupon
+15-Jul-2024,ORD100121,Black Tea,M,3.65,3,10.95,Mall,Alice,
+2023-05-19,ORD100278,Oolong,S,"7.19,00",1,7.19,Suburb,Bob,
+2024-07-23,ORD100052,Chamomile Blend,S,2.06,1,2.06,Mall,Diana,
+30-Mar-2024,ORD100086,Herbal Mix,M,2.57,3,7.71,Mall,Chen,
+04/03/2024,ORD100211,Lemon Tea,M,5.1,3,15.3,Uptown,Evan,coupon
+16/02/2023,ORD100004,Chamomile,S,7.06,2,14.12,Suburb,Bob,promo
+05/12/2024,ORD100532,Chamomile,S,2.86,1,2.86,Mall,Diana,
+Mar 19 2024,ORD100329,Green Tea,M,7.05,2,14.1,Airport,Alice,
+14-Feb-2023,ORD100003,Chamomile Blend,S,7.83,3,23.49,Suburb,Evan,
+2024-02-23,ORD100696,Black Tea,M,9.07,1,9.07,Suburb,Evan,coupon
+24-Mar-2023,ORD100290,Earl Grey,L,"11.87,00",2,23.74,Uptown,Evan,
+11/09/2023,ORD100751,Chamomile Blend,S,3.12,3,9.36,Mall,Bob,
+2024-03-13,ORD100266,Chamomile,L,8.34,1,8.34,Suburb,Alice,
+20/06/2023,ORD100844,Earl Grey,M,$2.91,2,5.82,Downtown,Bob,
+15/05/2023,ORD100432,Green Tea,L,$9.71,2,19.42,Airport,Alice,
+31/10/2024,ORD100339,Earl Grey,M,3.54,1,3.54,Airport,Evan,coupon
+05/04/2024,ORD100109,Earl Grey,L,6.89,1,6.89,Suburb,Alice,promo
+10-Oct-2024,ORD100809,Chamomile Blend,L,10.11,1,10.11,Mall,Evan,promo
+13/04/2024,ORD100210,Chamomile,L,8.0,1,8.0,Uptown,Chen,
+27/03/2023,ORD100821,Chamomile,M,5.56,2,11.12,Mall,Diana,
+15/12/2024,ORD100056,Mint Tea,S,7.17,2,14.34,Downtown,Chen,
+Jan 08 2023,ORD100283,Chamomile Blend,L,,2,,Suburb,Chen,coupon
+2024-04-10,ORD100087,Herbal Mix,L,"8.49,00",1,8.49,Uptown,Evan,promo
+26/11/2024,ORD100715,Chamomile Blend,L,8.12,2,16.24,Suburb,Bob,coupon
+2024-10-21,ORD100770,Oolong,S,6.51,,,Downtown,Alice,coupon
+Oct 07 2024,ORD100371,Mint Tea,M,"3.76,00",1,3.76,Downtown,Bob,
+2023-02-09,ORD100032,Lemon Tea,M,4.5,2,9.0,Airport,Bob,
+2023-02-15,ORD100026,Earl Grey,S,5.64,2,11.28,Airport,Alice,promo
+11/01/2023,ORD100803,Black Tea,L,8.76,3,26.28,Suburb,Alice,
+16-Nov-2024,ORD100015,Herbal Mix,L,3.54,2,7.08,Mall,Diana,
+Jun 19 2024,ORD100638,Herbal Mix,L,2.48,2,4.96,Airport,Diana,returned
+05-Nov-2024,ORD100016,Earl Grey,M,"5.01,00",3,15.03,Downtown,Alice,coupon
+2023-02-15,ORD100206,Green Tea,M,6.85,3,20.55,Uptown,Evan,
+Dec 14 2024,ORD100265,Chamomile,M,$3.65,2,7.3,Mall,Bob,
+16/09/2024,ORD100439,Chamomile,S,$1.51,3,4.53,Uptown,Evan,
+Dec 22 2023,ORD100360,Herbal Mix,L,11.64,1,11.64,Mall,Evan,
+2024-04-09,ORD100010,Chamomile,L,9.68,3,29.04,Airport,Evan,coupon
+2023-08-05,ORD100584,Chamomile,M,8.03,2,16.06,Mall,Chen,
+16-Nov-2023,ORD100546,Mint Tea,S,5.2,2,10.4,Mall,Evan,
+2024-01-27,ORD100030,Mint Tea,S,2.8,1,2.8,Uptown,Diana,
+Mar 09 2023,ORD100111,Black Tea,L,8.86,3,26.58,Airport,Bob,promo
+01-Feb-2023,ORD100247,Mint Tea,L,9.54,1,9.54,Downtown,Bob,
+16-Apr-2024,ORD100583,Mint Tea,L,"11.56,00",1,11.56,Mall,Chen,promo
+Jun 16 2024,ORD100475,Oolong,M,6.07,1,6.07,Airport,Alice,coupon
+Nov 28 2024,ORD100107,Earl Grey,S,4.36,1,4.36,Suburb,Evan,
+07-Nov-2024,ORD100555,Chamomile,L,7.44,2,14.88,Downtown,Evan,
+21-Sep-2024,ORD100130,Chamomile,L,11.81,3,35.43,Airport,Bob,promo
+22-Nov-2023,ORD100244,Chamomile,S,1.99,2,3.98,Downtown,Bob,coupon
+19/02/2023,ORD100736,Earl Grey,M,3.21,2,6.42,Mall,Diana,coupon
+01-Jul-2024,ORD100882,Green Tea,L,6.95,1,6.95,Mall,Evan,
+2024-04-19,ORD100288,Mint Tea,S,7.13,1,7.13,Uptown,Evan,
+12/04/2024,ORD100489,Lemon Tea,S,$6.82,2,13.64,Airport,Bob,promo
+2024-05-30,ORD100590,Black Tea,L,8.7,2,17.4,Mall,Chen,
+21-Jul-2024,ORD100740,Green Tea,M,7.08,2,14.16,Airport,Alice,promo
+Mar 08 2024,ORD100649,Herbal Mix,S,5.66,1,5.66,Mall,Evan,coupon
+24/05/2023,ORD100212,Earl Grey,M,,2,13.26,Mall,Evan,
+2024-02-20,ORD100487,Herbal Mix,L,8.76,2,17.52,Airport,Bob,
+Oct 11 2024,ORD100808,Lemon Tea,S,7.97,,,Mall,Alice,
+Aug 08 2023,ORD100562,Mint Tea,M,3.78,1,3.78,Downtown,Chen,
+2024-07-15,ORD100035,Chamomile,M,3.44,1,3.44,Mall,Bob,promo
+09-Nov-2023,ORD100337,Chamomile Blend,S,2.64,1,2.64,Uptown,Chen,
+Dec 12 2024,ORD100437,Earl Grey,L,6.28,1,6.28,Airport,Alice,coupon
+Sep 10 2023,ORD100154,Chamomile Blend,M,,1,3.55,Mall,Chen,coupon
+2024-09-01,ORD100021,Herbal Mix,M,2.74,2,5.48,Downtown,Diana,coupon
+Nov 18 2023,ORD100609,Green Tea,M,8.82,2,17.64,Uptown,Evan,
+Sep 30 2024,ORD100348,Oolong,L,8.93,1,8.93,Mall,Bob,promo
+23-Jul-2023,ORD100148,Chamomile Blend,S,1.79,2,3.58,Uptown,Evan,promo
+2023-04-04,ORD100753,Matcha,M,5.89,1,5.89,Mall,Alice,
+02-Jan-2024,ORD100298,Chamomile,S,1.76,2,3.52,Downtown,Alice,
+2023-09-29,ORD100776,Green Tea,S,6.56,2,13.12,Mall,Alice,
+10/12/2024,ORD100164,Green Tea,L,3.4,2,6.8,Suburb,Alice,coupon
+Jul 04 2023,ORD100825,Matcha,S,$3.83,3,11.49,Uptown,Chen,coupon
+28-Aug-2024,ORD100240,Herbal Mix,L,11.03,1,11.03,Downtown,Bob,
+28/05/2023,ORD100522,Chamomile,M,9.51,2,19.02,Downtown,Alice,coupon
+06-May-2024,ORD100252,Earl Grey,L,7.15,1,7.15,Downtown,Chen,
+26-Oct-2024,ORD100508,Lemon Tea,L,4.3,1,4.3,Airport,Diana,
+2024-01-18,ORD100796,Matcha,L,6.64,1,6.64,Downtown,Bob,
+13/11/2024,ORD100614,Matcha,L,$9.44,2,18.88,Suburb,Diana,
+30-Mar-2024,ORD100296,Black Tea,L,4.71,3,14.13,Suburb,Diana,coupon
+01/11/2024,ORD100073,Black Tea,M,7.9,2,15.8,Suburb,Evan,coupon
+Jun 26 2024,ORD100253,Lemon Tea,S,$7.83,3,23.49,Airport,Alice,promo
+2023-07-24,ORD100126,Earl Grey,M,5.82,1,5.82,Uptown,Chen,
+02/01/2023,ORD100033,Earl Grey,M,2.35,1,2.35,Downtown,Chen,
+2024-04-23,ORD100448,Black Tea,L,"9.72,00",1,9.72,Uptown,Chen,coupon
+2024-11-21,ORD100100,Chamomile,M,6.96,1,6.96,Airport,Alice,
+28/01/2023,ORD100669,Herbal Mix,S,7.42,1,7.42,Downtown,Diana,
+2024-10-25,ORD100504,Green Tea,M,7.02,2,14.04,Downtown,Diana,promo
+09-Dec-2024,ORD100128,Earl Grey,L,$4.85,2,9.7,Airport,Bob,coupon
+05/05/2024,ORD100179,Earl Grey,M,$9.26,1,9.26,Downtown,Diana,promo
+20-Apr-2023,ORD100038,Herbal Mix,S,6.73,2,13.46,Downtown,Diana,
+Feb 25 2024,ORD100274,Matcha,L,"6.98,00",1,6.98,Airport,Evan,
+2023-09-01,ORD100561,Earl Grey,M,8.29,3,24.87,Mall,Bob,promo
+10/02/2023,ORD100417,Chamomile Blend,M,4.4,1,4.4,Suburb,Chen,coupon
+18-May-2024,ORD100566,Matcha,M,7.4,1,7.4,Airport,Alice,coupon
+Nov 14 2024,ORD100039,Mint Tea,L,10.2,2,20.4,Uptown,Diana,promo
+Jun 27 2024,ORD100081,Oolong,M,8.93,1,8.93,Suburb,Alice,
+Apr 11 2024,ORD100071,Herbal Mix,L,4.58,2,9.16,Mall,Diana,promo
+01-Dec-2023,ORD100034,Chamomile,L,3.49,3,10.47,Uptown,Evan,
+2023-06-15,ORD100011,Lemon Tea,M,$5.61,1,5.61,Suburb,Bob,
+Feb 03 2024,ORD100194,Earl Grey,S,2.09,1,2.09,Downtown,Bob,
+2023-12-09,ORD100879,Oolong,S,5.06,3,15.18,Downtown,Bob,
+Apr 26 2024,ORD100899,Lemon Tea,S,$2.54,1,2.54,Downtown,Alice,coupon
+Oct 15 2024,ORD100389,Herbal Mix,M,8.72,1,8.72,Mall,Chen,coupon
+02-Aug-2024,ORD100526,Chamomile,L,8.94,1,8.94,Airport,Alice,promo
+06/05/2023,ORD100541,Matcha,L,7.12,2,14.24,Mall,Chen,
+30-Nov-2023,ORD100708,Herbal Mix,L,6.97,1,6.97,Mall,Alice,coupon
+03/11/2023,ORD100226,Matcha,S,5.67,,,Uptown,Diana,promo
+2024-01-08,ORD100806,Chamomile,M,5.72,3,17.16,Mall,Diana,
+2024-11-13,ORD100028,Earl Grey,L,10.87,1,10.87,Uptown,Bob,promo
+19/11/2024,ORD100633,Matcha,L,10.98,2,21.96,Downtown,Evan,
+09-Feb-2023,ORD100275,Earl Grey,L,4.57,,,Suburb,Chen,
+02/09/2023,ORD100681,Black Tea,S,4.24,1,4.24,Downtown,Bob,
+08/09/2024,ORD100256,Green Tea,L,6.91,1,6.91,Uptown,Chen,promo
+13-Jul-2023,ORD100768,Oolong,L,5.0,2,10.0,Uptown,Alice,
+2023-01-10,ORD100704,Chamomile,S,"5.82,00",1,5.82,Downtown,Diana,coupon
+Sep 13 2023,ORD100365,Oolong,S,$2.28,3,6.84,Downtown,Evan,
+02/01/2023,ORD100033,Earl Grey,M,2.35,1,2.35,Downtown,Chen,
+2024-10-19,ORD100137,Mint Tea,M,7.1,2,14.2,Uptown,Bob,
+23/02/2023,ORD100472,Mint Tea,M,5.51,2,11.02,Mall,Diana,
+2023-06-10,ORD100060,Matcha,M,"7.18,00",1,7.18,Mall,Alice,coupon
+20/10/2024,ORD100125,Mint Tea,L,6.92,3,20.76,Mall,Alice,
+2023-03-04,ORD100251,Chamomile,M,2.87,2,5.74,Airport,Alice,coupon
+14-Jun-2024,ORD100133,Chamomile Blend,S,3.2,2,6.4,Mall,Bob,
+2024-05-22,ORD100072,Oolong,L,11.66,2,23.32,Mall,Alice,
+2023-01-10,ORD100225,Earl Grey,S,7.92,1,7.92,Downtown,Alice,coupon
+16/08/2023,ORD100424,Herbal Mix,S,2.65,2,5.3,Suburb,Diana,
+14/06/2024,ORD100699,Matcha,S,6.89,2,13.78,Mall,Evan,
+05/01/2024,ORD100780,Chamomile,M,2.92,2,5.84,Uptown,Alice,
+04-Dec-2023,ORD100198,Earl Grey,M,8.16,1,8.16,Airport,Bob,promo
+Aug 06 2023,ORD100755,Mint Tea,M,$8.89,1,8.89,Mall,Chen,
+18/12/2024,ORD100752,Herbal Mix,L,8.38,2,16.76,Uptown,Bob,promo
+2024-09-12,ORD100820,Chamomile Blend,S,4.87,1,4.87,Uptown,Alice,promo
+23/10/2024,ORD100442,Mint Tea,S,5.58,1,5.58,Mall,Alice,coupon
+Dec 02 2023,ORD100149,Oolong,M,9.53,1,9.53,Airport,Evan,coupon
+Apr 08 2024,ORD100459,Matcha,L,7.88,1,7.88,Suburb,Diana,coupon
+2024-08-18,ORD100527,Oolong,M,5.4,1,5.4,Mall,Chen,coupon
+May 27 2023,ORD100007,Oolong,S,6.34,2,12.68,Mall,Chen,promo
+13/11/2023,ORD100687,Matcha,S,$5.53,1,5.53,Uptown,Bob,
+2024-02-21,ORD100245,Chamomile Blend,M,9.32,1,9.32,Downtown,Bob,coupon
+27/06/2023,ORD100271,Herbal Mix,S,2.32,2,4.64,Uptown,Evan,
+Aug 13 2023,ORD100837,Matcha,M,8.57,1,8.57,Mall,Bob,
+23-Jun-2024,ORD100655,Black Tea,S,2.44,1,2.44,Suburb,Chen,promo
+22-Apr-2023,ORD100891,Chamomile,L,6.77,2,13.54,Mall,Diana,promo
+Apr 23 2023,ORD100461,Green Tea,S,4.31,3,12.93,Mall,Diana,promo
+2024-04-08,ORD100310,Black Tea,L,4.41,1,4.41,Suburb,Alice,promo
+2024-02-28,ORD100818,Mint Tea,L,2.99,1,2.99,Mall,Bob,
+Sep 10 2023,ORD100154,Chamomile Blend,M,3.55,1,3.55,Mall,Chen,coupon
+07-Jul-2023,ORD100690,Green Tea,S,$7.15,1,7.15,Uptown,Bob,promo
+2024-09-01,ORD100021,Herbal Mix,M,2.74,2,5.48,Downtown,Diana,coupon
+03/06/2024,ORD100881,Earl Grey,M,5.53,,,Downtown,Alice,promo
+2023-08-07,ORD100611,Chamomile Blend,L,5.29,,,Airport,Evan,coupon
+10-Aug-2024,ORD100299,Oolong,S,$6.57,3,19.71,Suburb,Bob,coupon
+31-May-2024,ORD100161,Chamomile,S,6.76,3,20.28,Uptown,Alice,coupon
+10-Jun-2024,ORD100326,Mint Tea,S,3.43,1,3.43,Uptown,Evan,
+Nov 05 2023,ORD100830,Earl Grey,M,4.92,2,9.84,Suburb,Diana,
+2024-05-22,ORD100889,Matcha,M,5.26,3,15.78,Downtown,Chen,coupon
+Feb 05 2024,ORD100547,Mint Tea,L,11.72,1,11.72,Downtown,Evan,coupon
+20/04/2023,ORD100817,Chamomile,M,$8.78,2,17.56,Uptown,Diana,
+15-Mar-2023,ORD100103,Green Tea,M,1.95,2,3.9,Mall,Diana,
+Oct 11 2024,ORD100430,Black Tea,L,9.15,2,18.3,Mall,Evan,promo
+24-Dec-2024,ORD100738,Oolong,M,9.49,1,9.49,Airport,Bob,
+2024-10-17,ORD100734,Earl Grey,M,7.87,,,Mall,Bob,
+10-Aug-2023,ORD100499,Oolong,M,4.71,1,4.71,Uptown,Chen,
+Apr 05 2024,ORD100178,Black Tea,L,9.31,3,27.93,Downtown,Alice,promo
+2024-05-11,ORD100497,Black Tea,S,6.19,1,6.19,Suburb,Bob,coupon
+May 05 2023,ORD100863,Matcha,M,9.47,2,18.94,Airport,Diana,
+27/10/2024,ORD100594,Matcha,L,10.62,2,21.24,Mall,Alice,promo
+Jun 17 2023,ORD100047,Black Tea,L,2.5,2,5.0,Uptown,Alice,promo
+2024-10-09,ORD100824,Mint Tea,S,7.28,2,14.56,Airport,Chen,
+2024-02-26,ORD100615,Black Tea,S,4.26,1,4.26,Airport,Diana,
+20-Apr-2023,ORD100038,Herbal Mix,S,6.73,2,13.46,Downtown,Diana,
+05/10/2024,ORD100227,Matcha,L,8.94,1,8.94,Downtown,Evan,coupon
+2023-01-07,ORD100441,Earl Grey,M,4.89,1,4.89,Suburb,Diana,
+24/04/2023,ORD100568,Herbal Mix,L,9.21,1,9.21,Mall,Chen,promo
+07-Oct-2024,ORD100596,Matcha,M,7.55,1,7.55,Mall,Diana,
+07/11/2024,ORD100175,Matcha,M,3.95,3,11.85,Mall,Evan,coupon
+01/09/2023,ORD100433,Lemon Tea,L,6.89,,,Airport,Chen,promo
+14-Oct-2024,ORD100243,Black Tea,L,7.79,1,7.79,Suburb,Diana,coupon
+2023-06-15,ORD100794,Chamomile,L,$5.79,1,5.79,Mall,Chen,coupon
+Dec 27 2023,ORD100868,Mint Tea,L,10.62,3,31.86,Mall,Alice,
+2023-06-08,ORD100797,Chamomile,M,3.03,2,6.06,Downtown,Chen,
+20/07/2024,ORD100814,Earl Grey,S,$2.11,1,2.11,Airport,Bob,
+Jul 17 2024,ORD100147,Lemon Tea,L,8.21,1,8.21,Suburb,Evan,promo
+28-Sep-2023,ORD100616,Matcha,M,7.17,2,14.34,Uptown,Evan,
+10/08/2024,ORD100346,Oolong,L,7.25,1,7.25,Uptown,Evan,
+2024-11-19,ORD100634,Earl Grey,M,8.25,3,24.75,Downtown,Diana,promo
+28/11/2024,ORD100698,Chamomile,S,5.41,1,5.41,Downtown,Diana,
+07/06/2023,ORD100115,Oolong,L,9.77,2,19.54,Suburb,Bob,coupon
+Apr 27 2024,ORD100575,Lemon Tea,L,11.68,,,Airport,Evan,
+13-Jan-2023,ORD100049,Mint Tea,S,4.32,2,8.64,Mall,Bob,coupon
+Oct 30 2023,ORD100285,Matcha,M,$4.83,3,14.49,Uptown,Chen,promo
+26-Feb-2023,ORD100236,Lemon Tea,S,3.89,2,7.78,Downtown,Bob,
+May 30 2024,ORD100361,Earl Grey,S,6.72,2,13.44,Mall,Diana,promo
+09-May-2024,ORD100304,Black Tea,M,$5.24,3,15.72,Airport,Evan,promo
+13-Aug-2023,ORD100716,Mint Tea,S,5.41,3,16.23,Suburb,Chen,
+05/03/2024,ORD100733,Earl Grey,M,4.76,1,4.76,Downtown,Evan,coupon
+May 27 2023,ORD100007,Oolong,S,6.34,2,12.68,Mall,Chen,promo
+21-Aug-2024,ORD100757,Black Tea,S,2.35,2,4.7,Uptown,Bob,
+03-Apr-2023,ORD100587,Earl Grey,L,4.07,2,8.14,Mall,Bob,promo
+Feb 04 2024,ORD100877,Black Tea,S,$7.79,2,15.58,Airport,Evan,
+May 09 2023,ORD100139,Lemon Tea,L,3.16,2,6.32,Airport,Evan,
+2024-12-25,ORD100771,Herbal Mix,S,4.62,1,4.62,Mall,Bob,coupon
+28-May-2023,ORD100463,Matcha,S,2.05,2,4.1,Airport,Diana,
+06-Nov-2024,ORD100185,Green Tea,S,"4.96,00",3,14.88,Suburb,Alice,
+17/03/2023,ORD100023,Chamomile Blend,M,2.83,1,2.83,Uptown,Diana,coupon
+Dec 23 2024,ORD100843,Green Tea,S,2.7,3,8.1,Uptown,Bob,
+Oct 19 2024,ORD100141,Mint Tea,S,6.73,1,6.73,Uptown,Diana,
+2023-05-14,ORD100095,Lemon Tea,L,7.73,3,23.19,Mall,Alice,coupon
+15/05/2023,ORD100422,Green Tea,L,8.27,2,16.54,Downtown,Chen,
+15/12/2023,ORD100836,Lemon Tea,L,7.26,3,21.78,Uptown,Evan,promo
+24/09/2023,ORD100569,Lemon Tea,M,8.04,1,8.04,Mall,Evan,
+2023-12-24,ORD100548,Earl Grey,M,2.56,1,2.56,Uptown,Bob,coupon
+Jul 27 2024,ORD100759,Earl Grey,M,$6.71,2,13.42,Mall,Evan,
+Feb 26 2023,ORD100644,Lemon Tea,L,$6.46,1,6.46,Suburb,Diana,
+2023-02-21,ORD100018,Black Tea,S,2.58,2,5.16,Uptown,Diana,returned
+Aug 13 2023,ORD100476,Chamomile,S,"1.72,00",2,3.44,Uptown,Evan,
+2024-12-13,ORD100276,Herbal Mix,S,3.45,1,3.45,Mall,Evan,promo
+2024-07-28,ORD100521,Herbal Mix,L,10.91,2,21.82,Mall,Diana,
+25-Aug-2023,ORD100416,Chamomile Blend,L,3.22,2,6.44,Uptown,Evan,
+09/12/2024,ORD100493,Herbal Mix,S,5.66,1,5.66,Downtown,Evan,
+26/11/2023,ORD100292,Green Tea,L,2.29,1,2.29,Downtown,Diana,coupon
+2024-05-05,ORD100518,Oolong,L,7.62,1,7.62,Downtown,Chen,promo
+2024-04-17,ORD100858,Chamomile Blend,S,7.72,2,15.44,Uptown,Evan,promo
+Jan 06 2023,ORD100874,Matcha,L,$7.58,1,7.58,Airport,Diana,promo
+2023-10-24,ORD100865,Lemon Tea,M,4.67,1,4.67,Mall,Bob,
+06/07/2024,ORD100516,Chamomile Blend,M,$2.75,2,5.5,Mall,Chen,coupon
+04/09/2023,ORD100173,Black Tea,S,5.36,1,,Downtown,Diana,promo
+12-Oct-2023,ORD100045,Chamomile,S,"4.56,00",1,4.56,Downtown,Alice,promo
+02/09/2023,ORD100456,Chamomile Blend,S,7.83,3,23.49,Mall,Evan,promo
+2024-11-20,ORD100510,Herbal Mix,M,2.48,1,2.48,Suburb,Alice,
+2024-02-08,ORD100044,Black Tea,L,6.43,1,6.43,Uptown,Diana,
+17-Nov-2024,ORD100591,Lemon Tea,M,4.46,1,4.46,Airport,Chen,
+07-Nov-2023,ORD100852,Chamomile,S,$6.7,1,6.7,Airport,Alice,coupon
+20-Jun-2023,ORD100262,Mint Tea,M,4.54,2,9.08,Uptown,Bob,
+12-Jul-2023,ORD100668,Black Tea,M,6.24,1,6.24,Airport,Bob,
+Mar 13 2024,ORD100438,Chamomile,L,7.86,2,15.72,Airport,Diana,promo
+2023-06-11,ORD100492,Mint Tea,S,1.54,3,4.62,Suburb,Diana,
+30/03/2024,ORD100075,Chamomile,S,1.8,1,1.8,Uptown,Evan,promo
+29-Sep-2023,ORD100019,Chamomile,M,7.23,3,21.69,Uptown,Bob,
+13/10/2023,ORD100777,Black Tea,M,9.56,1,9.56,Mall,Diana,coupon
+30/11/2024,ORD100563,Chamomile,S,3.86,1,3.86,Airport,Alice,
+09-Jun-2023,ORD100693,Green Tea,M,$5.13,1,5.13,Uptown,Evan,coupon
+2024-10-15,ORD100788,Herbal Mix,M,"2.46,00",2,4.92,Suburb,Alice,
+2023-05-07,ORD100332,Green Tea,L,8.07,1,8.07,Suburb,Bob,promo
+22-Nov-2023,ORD100244,Chamomile,S,1.99,2,3.98,Downtown,Bob,coupon
+27-Sep-2023,ORD100268,Mint Tea,M,3.56,3,10.68,Downtown,Chen,
+2023-09-17,ORD100124,Earl Grey,S,3.74,2,7.48,Suburb,Bob,coupon
+Feb 18 2023,ORD100552,Lemon Tea,M,8.08,3,24.24,Downtown,Evan,
+2024-12-19,ORD100234,Oolong,M,9.23,3,27.69,Suburb,Bob,coupon
+May 11 2024,ORD100542,Oolong,M,2.64,3,7.92,Downtown,Alice,
+2023-04-28,ORD100862,Green Tea,S,5.42,1,5.42,Downtown,Evan,
+Dec 12 2024,ORD100220,Mint Tea,M,$4.35,3,13.05,Mall,Chen,
+14/05/2023,ORD100671,Chamomile,M,8.18,2,16.36,Airport,Bob,
+Aug 01 2024,ORD100443,Chamomile Blend,L,2.43,1,2.43,Uptown,Chen,coupon
+Apr 15 2023,ORD100048,Lemon Tea,S,"6.68,00",2,13.36,Suburb,Alice,coupon
+26-Apr-2024,ORD100064,Chamomile,S,7.98,1,7.98,Mall,Chen,
+Apr 15 2023,ORD100048,Lemon Tea,S,"6.68,00",2,13.36,Suburb,Alice,coupon
+01-Jun-2023,ORD100848,Herbal Mix,L,"11.94,00",2,23.88,Mall,Chen,
+14/05/2024,ORD100043,Chamomile,M,5.59,2,11.18,Mall,Bob,
+2023-04-23,ORD100089,Oolong,S,3.83,1,3.83,Downtown,Bob,
+Nov 02 2024,ORD100127,Chamomile,S,6.7,2,13.4,Mall,Chen,
+2024-07-10,ORD100202,Earl Grey,L,10.98,1,10.98,Uptown,Chen,
+2023-07-26,ORD100397,Mint Tea,S,2.14,3,6.42,Airport,Evan,coupon
+Apr 13 2023,ORD100370,Herbal Mix,L,6.46,3,19.38,Downtown,Bob,promo
+2023-01-30,ORD100140,Green Tea,L,9.77,2,19.54,Downtown,Diana,coupon
+28-Jun-2024,ORD100400,Herbal Mix,S,4.92,1,4.92,Airport,Diana,coupon
+21-Dec-2024,ORD100505,Oolong,M,"6.69,00",3,20.07,Suburb,Evan,
+2023-02-21,ORD100018,Black Tea,S,2.58,2,5.16,Uptown,Diana,returned
+2023-07-05,ORD100626,Green Tea,M,4.84,1,4.84,Downtown,Alice,promo
+2023-07-15,ORD100152,Mint Tea,M,5.07,2,10.14,Mall,Alice,promo
+Jan 27 2023,ORD100890,Chamomile,L,$4.36,3,13.08,Mall,Diana,
+Mar 15 2024,ORD100228,Oolong,S,$3.3,2,6.6,Airport,Chen,
+24/06/2023,ORD100637,Lemon Tea,L,8.9,1,8.9,Uptown,Chen,promo
+23-Feb-2024,ORD100213,Matcha,L,10.44,1,10.44,Uptown,Chen,promo
+13/12/2024,ORD100781,Matcha,L,2.51,3,7.53,Airport,Alice,promo
+21-Aug-2024,ORD100870,Black Tea,S,1.69,3,5.07,Mall,Chen,promo
+Mar 21 2023,ORD100406,Mint Tea,S,4.67,1,4.67,Suburb,Alice,
+10-Dec-2024,ORD100786,Mint Tea,M,6.89,1,6.89,Mall,Bob,
+12-Nov-2023,ORD100267,Mint Tea,M,8.78,2,17.56,Mall,Chen,
+29-Mar-2023,ORD100012,Black Tea,L,9.72,2,19.44,Airport,Evan,promo
+Jul 26 2023,ORD100544,Mint Tea,M,5.74,2,11.48,Downtown,Diana,
+Mar 05 2023,ORD100418,Matcha,S,7.64,1,7.64,Uptown,Alice,promo
+2024-08-21,ORD100390,Matcha,S,$1.56,3,4.68,Airport,Bob,
+2023-08-15,ORD100398,Green Tea,S,5.76,2,11.52,Downtown,Chen,
+Nov 30 2023,ORD100898,Matcha,S,5.67,1,5.67,Suburb,Chen,coupon
+28/03/2024,ORD100795,Black Tea,L,7.01,2,14.02,Uptown,Diana,coupon
+Dec 27 2024,ORD100720,Mint Tea,L,3.85,1,3.85,Uptown,Bob,promo
+13-Dec-2023,ORD100264,greentea,M,9.15,1,9.15,Suburb,Bob,
+08-Aug-2024,ORD100815,Green Tea,L,9.41,1,9.41,Uptown,Chen,promo
+15/04/2024,ORD100187,Herbal Mix,M,7.14,3,21.42,Downtown,Diana,
+2023-05-01,ORD100235,Earl Grey,M,$3.92,3,11.76,Downtown,Diana,coupon
+15/10/2023,ORD100500,Black Tea,M,5.38,1,5.38,Airport,Bob,promo
+08-Oct-2023,ORD100717,Herbal Mix,M,"4.07,00",1,4.07,Uptown,Bob,
+2023-06-22,ORD100679,Green Tea,L,4.91,3,14.73,Airport,Bob,
+11-Dec-2023,ORD100551,Chamomile Blend,L,5.56,2,11.12,Downtown,Evan,coupon
+07-Aug-2024,ORD100875,Chamomile Blend,M,4.58,1,4.58,Mall,Alice,promo
+2024-09-18,ORD100024,Chamomile Blend,M,$9.07,1,9.07,Downtown,Evan,coupon
+2024-05-22,ORD100588,Chamomile,M,5.21,1,5.21,Suburb,Bob,coupon
+2024-02-19,ORD100425,Lemon Tea,L,10.29,3,30.87,Airport,Evan,
+13-Jan-2023,ORD100049,minttea,S,4.32,2,8.64,Mall,Bob,coupon
+03/05/2023,ORD100540,Matcha,M,7.22,1,7.22,Uptown,Chen,
+2023-10-29,ORD100263,Earl Grey,M,$9.22,1,9.22,Uptown,Alice,
+18-Oct-2023,ORD100101,Chamomile Blend,L,5.26,,,Suburb,Bob,coupon
+15-Jul-2024,ORD100414,Lemon Tea,L,11.92,2,23.84,Airport,Alice,
+22/05/2024,ORD100160,chamomile,S,,1,1.56,Airport,Evan,promo
+14-Dec-2023,ORD100362,Mint Tea,L,10.65,2,21.3,Uptown,Bob,
+2024-09-25,ORD100878,Chamomile Blend,L,10.95,1,10.95,Downtown,Chen,promo
+2023-04-02,ORD100700,Lemon Tea,M,8.15,3,24.45,Suburb,Alice,
+24/06/2023,ORD100076,Black Tea,L,10.74,2,21.48,Mall,Chen,
+Oct 14 2024,ORD100040,Chamomile Blend,M,6.69,1,6.69,Suburb,Chen,
+2023-06-27,ORD100457,Lemon Tea,M,2.69,1,2.69,Uptown,Chen,
+29-Sep-2023,ORD100019,Chamomile,M,7.23,3,21.69,Uptown,Bob,
+12/02/2024,ORD100664,Herbal Mix,L,9.55,2,19.1,Mall,Chen,coupon
+31-Mar-2023,ORD100272,Chamomile Blend,M,6.11,1,6.11,Airport,Evan,
+18/10/2023,ORD100415,Lemon Tea,M,"2.21,00",2,4.42,Suburb,Alice,returned
+2023-05-14,ORD100451,Mint Tea,L,2.74,2,5.48,Airport,Evan,
+2024-10-20,ORD100744,Mint Tea,L,$10.52,1,10.52,Suburb,Chen,
+2023-02-21,ORD100018,Black Tea,S,2.58,2,5.16,Uptown,Diana,returned
+2024-05-05,ORD100503,Mint Tea,M,"3.68,00",3,11.04,Uptown,Bob,promo
+25/06/2024,ORD100171,Herbal Mix,S,6.42,3,19.26,Airport,Diana,promo
+Aug 10 2024,ORD100364,Oolong,L,8.91,1,8.91,Uptown,Chen,promo
+Dec 29 2024,ORD100242,Black Tea,S,7.49,3,22.47,Mall,Alice,promo
+2024-01-13,ORD100399,Lemon Tea,M,5.93,1,5.93,Airport,Alice,promo
+02/12/2024,ORD100586,Earl Grey,L,3.19,2,6.38,Mall,Chen,
+27-Jan-2024,ORD100117,Oolong,S,6.71,3,,Suburb,Evan,
+2024-05-26,ORD100230,Chamomile Blend,S,7.91,2,15.82,Airport,Bob,
+Mar 30 2023,ORD100854,Oolong,L,4.17,1,4.17,Suburb,Bob,
+2024-08-05,ORD100059,Lemon Tea,L,3.22,1,3.22,Uptown,Bob,
+Sep 12 2023,ORD100729,Green Tea,L,11.07,1,11.07,Suburb,Evan,coupon
+25/08/2024,ORD100014,Lemon Tea,S,"1.55,00",1,1.55,Suburb,Alice,coupon
+Jan 15 2024,ORD100132,Mint Tea,S,5.23,3,15.69,Downtown,Alice,
+01/05/2024,ORD100462,Herbal Mix,L,6.0,1,6.0,Uptown,Bob,
+2023-10-22,ORD100155,Lemon Tea,L,7.55,1,7.55,Uptown,Chen,
+2024-02-27,ORD100029,Oolong,L,11.26,3,33.78,Uptown,Chen,
+28-Aug-2023,ORD100636,Earl Grey,S,3.32,,,Mall,Alice,
+31-Mar-2023,ORD100216,Black Tea,S,2.86,3,8.58,Mall,Bob,promo
+31-May-2023,ORD100838,Black Tea,L,$3.32,2,6.64,Downtown,Diana,
+2024-01-10,ORD100343,Chamomile Blend,M,4.74,1,4.74,Suburb,Diana,
+05-Jun-2024,ORD100464,Chamomile Blend,M,4.8,1,4.8,Uptown,Evan,coupon
+25/07/2024,ORD100570,Black Tea,M,3.35,2,6.7,Airport,Chen,coupon
+2023-07-12,ORD100530,Matcha,M,$8.95,1,8.95,Mall,Chen,coupon
+22/05/2023,ORD100041,Herbal Mix,M,7.21,2,14.42,Mall,Diana,
+Feb 16 2023,ORD100440,Earl Grey,L,10.11,3,30.33,Downtown,Chen,coupon
+30/06/2024,ORD100763,Chamomile,S,5.66,1,5.66,Downtown,Bob,promo
+May 31 2023,ORD100773,Chamomile,S,7.49,3,22.47,Downtown,Diana,
+03/01/2024,ORD100294,Oolong,M,1.95,1,1.95,Airport,Evan,coupon
+Jun 14 2023,ORD100065,Matcha,L,7.08,2,14.16,Downtown,Chen,
+09-Oct-2023,ORD100724,Earl Grey,S,$2.28,2,4.56,Airport,Bob,
+2023-07-13,ORD100539,Mint Tea,L,$5.83,3,17.49,Downtown,Diana,
+2023-08-23,ORD100006,Earl Grey,M,3.89,3,11.67,Mall,Diana,
+27/09/2024,ORD100413,Chamomile,S,3.73,,,Uptown,Evan,coupon
+Mar 16 2024,ORD100411,Lemon Tea,S,2.23,1,2.23,Airport,Alice,promo
+2023-10-19,ORD100118,oolong,M,5.3,1,5.3,Uptown,Diana,
+Jul 18 2023,ORD100335,Mint Tea,M,4.36,1,4.36,Suburb,Chen,promo
+20-Apr-2024,ORD100051,Earl Grey,S,4.71,1,4.71,Suburb,Chen,coupon
+2023-10-08,ORD100725,Lemon Tea,S,4.0,1,4.0,Downtown,Chen,promo
+23-Aug-2023,ORD100351,Matcha,M,6.39,3,19.17,Mall,Bob,promo
+2023-04-21,ORD100646,Green Tea,L,9.2,2,18.4,Airport,Chen,
+2024-02-03,ORD100042,Lemon Tea,M,5.52,2,11.04,Mall,Evan,promo
+2023-08-18,ORD100774,Chamomile,M,2.4,1,2.4,Airport,Bob,coupon
+Nov 24 2023,ORD100238,Black Tea,L,5.88,1,5.88,Airport,Alice,
+26-Apr-2023,ORD100273,Oolong,S,5.18,1,5.18,Airport,Alice,coupon
+Jul 14 2023,ORD100427,Mint Tea,M,8.7,1,8.7,Airport,Alice,promo
+03-Mar-2024,ORD100620,Lemon Tea,M,6.21,2,12.42,Airport,Bob,
+25-Jan-2024,ORD100694,Chamomile,M,4.01,1,4.01,Mall,Bob,promo
+2024-12-13,ORD100276,Herbal Mix,S,3.45,1,,Mall,Evan,promo
+10/10/2023,ORD100672,Green Tea,S,4.4,1,4.4,Airport,Diana,
+2023-03-06,ORD100491,Chamomile,S,6.42,1,6.42,Airport,Alice,
+Sep 22 2024,ORD100893,Earl Grey,M,6.94,,,Suburb,Evan,coupon
+01/06/2023,ORD100556,Oolong,L,8.93,1,8.93,Downtown,Bob,coupon
+2023-07-31,ORD100217,Lemon Tea,M,,3,17.85,Airport,Chen,
+06-Dec-2023,ORD100850,Lemon Tea,M,9.17,2,18.34,Suburb,Evan,
+May 22 2023,ORD100420,Chamomile Blend,S,4.3,3,12.9,Uptown,Chen,
+Jan 17 2024,ORD100509,Mint Tea,M,5.71,2,11.42,Airport,Chen,coupon
+09-Jun-2023,ORD100767,Herbal Mix,L,9.33,1,9.33,Mall,Bob,promo
+2024-03-31,ORD100635,Herbal Mix,L,2.44,1,2.44,Airport,Chen,promo
+Aug 09 2023,ORD100145,Green Tea,S,3.33,3,9.99,Airport,Alice,
+Apr 21 2024,ORD100077,Chamomile Blend,S,1.98,1,1.98,Mall,Chen,coupon
+04/10/2023,ORD100506,Black Tea,L,"10.84,00",3,32.52,Downtown,Alice,
+2024-04-13,ORD100209,Chamomile,L,10.66,2,21.32,Mall,Evan,coupon
+06-Jan-2023,ORD100853,Earl Grey,L,$10.38,1,10.38,Suburb,Evan,promo
+08/08/2024,ORD100196,Matcha,S,2.4,1,2.4,Suburb,Diana,
+31-Dec-2024,ORD100678,Oolong,M,8.2,1,8.2,Uptown,Chen,
+Jun 17 2023,ORD100047,Black Tea,L,2.5,2,5.0,Uptown,Alice,promo
+24-Feb-2024,ORD100676,Oolong,M,$3.42,1,3.42,Mall,Diana,
+Sep 10 2023,ORD100154,Chamomile Blend,M,3.55,1,3.55,Mall,Chen,coupon
+2024-04-07,ORD100108,Green Tea,M,$8.29,1,8.29,Airport,Diana,
+Oct 13 2023,ORD100031,Chamomile Blend,M,7.1,1,7.1,Suburb,Bob,coupon
+10/12/2023,ORD100812,Lemon Tea,M,3.69,3,11.07,Downtown,Evan,
+04/08/2024,ORD100255,Lemon Tea,S,6.94,2,13.88,Mall,Alice,promo
+Jan 03 2023,ORD100070,Chamomile,L,7.9,2,15.8,Suburb,Chen,
+27-Jan-2024,ORD100117,Oolong,S,6.71,3,20.13,Suburb,Evan,
+2023-06-21,ORD100604,Herbal Mix,M,3.02,2,6.04,Downtown,Bob,coupon
+2023-04-10,ORD100756,Chamomile Blend,S,3.65,2,7.3,Suburb,Bob,promo
+Jul 31 2024,ORD100468,Green Tea,L,"6.86,00",1,6.86,Airport,Alice,
+Mar 18 2023,ORD100758,Chamomile,L,6.87,1,6.87,Uptown,Diana,coupon
+06/07/2023,ORD100384,Chamomile,S,5.64,2,11.28,Suburb,Alice,
+12/01/2023,ORD100306,Chamomile Blend,M,8.44,2,16.88,Suburb,Chen,promo
+2023-02-17,ORD100312,Mint Tea,M,6.94,,,Downtown,Evan,
+28-Jan-2024,ORD100545,Earl Grey,M,$5.25,1,5.25,Suburb,Bob,promo
+Jul 08 2023,ORD100421,Oolong,L,2.54,2,5.08,Suburb,Bob,
+14-May-2024,ORD100823,Mint Tea,M,6.45,1,6.45,Mall,Bob,coupon
+07/04/2024,ORD100134,Mint Tea,S,6.77,3,20.31,Downtown,Evan,coupon
+06-Nov-2024,ORD100185,Green Tea,S,"4.96,00",3,14.88,Suburb,Alice,
+2023-02-27,ORD100188,Oolong,S,4.75,2,9.5,Downtown,Evan,promo
+2023-01-05,ORD100695,Chamomile Blend,L,9.32,2,18.64,Suburb,Diana,
+2023-09-14,ORD100393,Mint Tea,L,6.52,1,6.52,Airport,Chen,
+2024-04-14,ORD100091,Green Tea,M,8.41,3,25.23,Downtown,Alice,promo
+19/05/2024,ORD100311,Matcha,S,3.15,2,6.3,Uptown,Chen,
+10-Apr-2023,ORD100453,Chamomile,L,8.53,1,8.53,Airport,Chen,
+23-Oct-2024,ORD100113,Chamomile Blend,M,1.94,1,1.94,Mall,Bob,promo
+09/03/2023,ORD100092,chamomile,L,8.42,2,,Mall,Evan,
+28-Sep-2023,ORD100300,Green Tea,S,6.79,1,6.79,Suburb,Diana,
+19/10/2023,ORD100496,Matcha,M,4.41,1,4.41,Downtown,Evan,
+15-Jul-2024,ORD100379,Oolong,L,7.51,3,22.53,Airport,Diana,coupon
+20-Dec-2024,ORD100595,Mint Tea,M,1.95,1,1.95,Mall,Alice,
+2023-02-03,ORD100533,Mint Tea,S,$7.41,1,7.41,Downtown,Alice,promo
+13/05/2024,ORD100702,Chamomile Blend,S,4.43,1,4.43,Uptown,Chen,
+2024-11-05,ORD100036,Chamomile,L,8.72,1,8.72,Uptown,Bob,
+06/09/2024,ORD100775,Matcha,S,7.31,1,7.31,Downtown,Chen,coupon
+Oct 10 2024,ORD100201,Herbal Mix,M,6.94,1,6.94,Airport,Diana,
+Nov 16 2024,ORD100305,Chamomile Blend,L,8.96,3,26.88,Suburb,Diana,
+29-Jul-2024,ORD100861,Oolong,S,7.32,3,21.96,Downtown,Diana,promo
+2024-06-02,ORD100446,Mint Tea,L,3.75,2,7.5,Suburb,Bob,
+13/08/2024,ORD100373,Chamomile,M,4.34,2,8.68,Mall,Evan,promo
+Nov 18 2024,ORD100576,Oolong,L,2.65,2,5.3,Mall,Bob,
+2024-03-27,ORD100703,Oolong,S,3.41,,,Uptown,Diana,
+Jun 26 2024,ORD100289,Matcha,S,7.16,1,7.16,Airport,Diana,promo
+08-Mar-2024,ORD100855,Black Tea,M,8.98,2,17.96,Suburb,Evan,promo
+16-Aug-2023,ORD100409,Chamomile,M,2.95,3,8.85,Mall,Chen,
+23/04/2024,ORD100136,Lemon Tea,S,1.93,2,3.86,Mall,Evan,coupon
+11/11/2024,ORD100682,Oolong,S,$4.2,1,4.2,Uptown,Evan,
+14-Sep-2024,ORD100131,Green Tea,S,1.94,2,3.88,Downtown,Evan,
+Sep 19 2024,ORD100396,Earl Grey,M,$6.8,2,13.6,Downtown,Bob,
+Dec 20 2024,ORD100098,Earl Grey,M,1.85,2,3.7,Downtown,Alice,promo
+2024-07-12,ORD100027,Earl Grey,L,"7.64,00",1,7.64,Downtown,Chen,promo
+Dec 06 2023,ORD100689,Herbal Mix,S,5.01,1,5.01,Uptown,Evan,coupon
+2023-07-10,ORD100385,Chamomile,M,"2.78,00",1,2.78,Mall,Bob,coupon
+14/09/2023,ORD100856,Matcha,L,4.2,3,12.6,Uptown,Diana,
+2023-07-31,ORD100217,Lemon Tea,M,5.95,3,17.85,Airport,Chen,
+04-Jan-2024,ORD100403,Mint Tea,M,$1.8,1,1.8,Airport,Bob,coupon
+29-Mar-2023,ORD100012,Black Tea,L,9.72,2,19.44,Airport,Evan,promo
+08-Dec-2024,ORD100593,Chamomile,S,$2.31,1,2.31,Uptown,Alice,promo
+Mar 27 2023,ORD100352,Lemon Tea,L,6.23,1,6.23,Downtown,Evan,promo
+May 03 2024,ORD100163,Herbal Mix,S,3.2,1,3.2,Airport,Alice,coupon
+25-May-2023,ORD100488,Green Tea,M,8.88,3,26.64,Uptown,Alice,
+03-Aug-2024,ORD100793,Black Tea,S,2.43,1,2.43,Mall,Chen,coupon
+13-Apr-2024,ORD100674,Oolong,L,7.79,1,7.79,Uptown,Chen,coupon
+2023-09-06,ORD100157,Chamomile Blend,S,$5.65,2,11.3,Mall,Alice,promo
+Jul 11 2023,ORD100250,Chamomile,M,$8.69,2,17.38,Suburb,Diana,
+03-Aug-2024,ORD100553,Matcha,S,$3.76,1,3.76,Suburb,Diana,coupon
+Apr 17 2024,ORD100829,Oolong,M,2.09,1,2.09,Downtown,Diana,
+05/01/2023,ORD100208,Herbal Mix,M,7.67,1,7.67,Airport,Bob,promo
+2023-12-10,ORD100241,Matcha,L,$9.34,2,18.68,Mall,Diana,promo
+05-Aug-2023,ORD100189,Chamomile,S,7.51,2,15.02,Downtown,Bob,coupon
+25/05/2023,ORD100082,Matcha,L,"5.82,00",2,11.64,Suburb,Chen,coupon
+15/09/2024,ORD100314,Chamomile,M,9.32,1,9.32,Airport,Evan,coupon
+13-Jan-2023,ORD100049,Mint Tea,S,4.32,2,8.64,Mall,Bob,coupon
+20-Jun-2023,ORD100262,Mint Tea,M,4.54,2,,Uptown,Bob,
+29/04/2023,ORD100205,Earl Grey,M,4.48,1,4.48,Mall,Diana,coupon
+27/08/2023,ORD100713,Chamomile,S,$3.39,1,3.39,Uptown,Alice,promo
+04-May-2023,ORD100866,Green Tea,L,5.2,2,10.4,Suburb,Bob,
+Apr 04 2023,ORD100673,Mint Tea,M,7.26,2,14.52,Uptown,Diana,
+05/01/2023,ORD100208,Herbal Mix,M,7.67,1,7.67,Airport,Bob,promo
+2023-04-07,ORD100405,Mint Tea,M,3.02,1,3.02,Suburb,Alice,promo
+Jan 03 2023,ORD100070,chamomile,L,7.9,2,15.8,Suburb,Chen,
+2024-04-25,ORD100810,Earl Grey,M,5.02,3,15.06,Suburb,Bob,coupon
+2024-11-05,ORD100036,Chamomile,L,8.72,1,8.72,Uptown,Bob,
+2024-12-28,ORD100316,Earl Grey,L,6.93,2,13.86,Airport,Chen,
+Dec 31 2023,ORD100706,Black Tea,S,4.47,,,Downtown,Evan,promo
+Oct 11 2023,ORD100055,Black Tea,S,3.43,3,10.29,Suburb,Alice,coupon
+2024-01-03,ORD100341,Herbal Mix,M,3.61,3,10.83,Suburb,Diana,
+14-Jun-2024,ORD100133,Chamomile Blend,S,3.2,2,6.4,Mall,Bob,
+Jul 28 2023,ORD100142,Lemon Tea,S,3.53,1,3.53,Uptown,Chen,
+12-May-2024,ORD100705,Earl Grey,L,6.44,1,6.44,Suburb,Diana,
+25-Jul-2024,ORD100058,lemontea,L,9.96,2,19.92,Suburb,Evan,coupon
+07/02/2023,ORD100805,Herbal Mix,M,7.23,1,7.23,Uptown,Evan,coupon
+14-Aug-2024,ORD100834,Mint Tea,M,4.31,1,4.31,Downtown,Chen,promo
+Aug 22 2024,ORD100524,Mint Tea,L,9.46,1,9.46,Mall,Alice,coupon
+Jun 18 2023,ORD100167,Chamomile Blend,M,2.71,1,2.71,Mall,Alice,
+May 01 2023,ORD100883,Earl Grey,S,3.73,1,3.73,Uptown,Diana,
+2024-12-14,ORD100697,Matcha,M,"7.54,00",1,7.54,Downtown,Bob,
+Mar 28 2023,ORD100624,Matcha,L,"2.69,00",2,5.38,Downtown,Evan,coupon
+Apr 16 2024,ORD100172,Oolong,M,3.27,1,3.27,Mall,Evan,
+2023-08-26,ORD100597,Chamomile Blend,S,4.24,3,12.72,Mall,Alice,coupon
+10/02/2023,ORD100110,Mint Tea,M,5.89,1,5.89,Suburb,Evan,coupon
+20/08/2024,ORD100519,Chamomile,S,1.65,3,4.95,Airport,Diana,coupon
+Apr 21 2024,ORD100239,Chamomile,M,2.47,1,2.47,Suburb,Evan,coupon
+22/05/2023,ORD100041,Herbal Mix,M,7.21,2,14.42,Mall,Diana,
+17-Jul-2024,ORD100307,Matcha,S,2.01,1,2.01,Mall,Chen,
+15/12/2024,ORD100410,Oolong,M,6.16,1,6.16,Airport,Bob,coupon
+2024-09-18,ORD100494,Chamomile,M,5.07,2,10.14,Airport,Chen,promo
+07/11/2024,ORD100345,Matcha,M,7.42,1,7.42,Mall,Alice,promo
+Jul 15 2024,ORD100382,Herbal Mix,M,8.68,3,26.04,Mall,Diana,
+11-Jun-2023,ORD100258,Mint Tea,L,5.34,2,10.68,Uptown,Evan,
+2023-05-06,ORD100249,Mint Tea,S,2.59,2,5.18,Mall,Diana,promo
+Jun 20 2023,ORD100760,Oolong,M,2.15,3,6.45,Mall,Diana,
+05-Jun-2024,ORD100008,Black Tea,S,7.1,3,21.3,Downtown,Diana,
+2023-07-02,ORD100819,Black Tea,M,9.55,,,Airport,Chen,promo
+2023-12-18,ORD100467,Mint Tea,M,5.8,2,11.6,Suburb,Chen,coupon
+Oct 11 2023,ORD100449,Mint Tea,L,3.4,1,3.4,Airport,Evan,coupon
+25/09/2023,ORD100022,Earl Grey,S,3.23,2,6.46,Downtown,Alice,
+Apr 09 2024,ORD100613,Herbal Mix,L,11.89,3,35.67,Airport,Bob,coupon
+2023-01-21,ORD100559,Black Tea,M,6.49,2,12.98,Downtown,Diana,promo
+Dec 15 2024,ORD100610,Matcha,S,$7.23,2,14.46,Uptown,Evan,coupon
+2024-07-15,ORD100035,Chamomile,M,3.44,1,3.44,Mall,Bob,promo
+15-Jan-2024,ORD100085,Lemon Tea,L,9.33,2,,Suburb,Alice,promo
+Jan 16 2024,ORD100366,Mint Tea,L,10.72,2,21.44,Uptown,Evan,
+Nov 24 2024,ORD100191,Matcha,L,3.61,2,7.22,Suburb,Alice,promo
+Oct 24 2023,ORD100102,Black Tea,S,4.73,2,9.46,Airport,Evan,coupon
+28/05/2024,ORD100344,Mint Tea,S,2.99,1,2.99,Suburb,Evan,
+2023-02-17,ORD100342,Earl Grey,S,6.07,3,18.21,Airport,Evan,
+2024-03-08,ORD100612,Green Tea,M,3.83,3,11.49,Mall,Chen,
+10/12/2023,ORD100431,Oolong,S,2.66,1,2.66,Mall,Chen,
+04/08/2024,ORD100162,Oolong,L,10.6,2,21.2,Mall,Alice,promo
+05-Jun-2024,ORD100008,Black Tea,S,7.1,3,21.3,Downtown,Diana,
+2024-05-04,ORD100367,Chamomile Blend,M,4.87,1,4.87,Mall,Chen,
+Nov 28 2024,ORD100107,Earl Grey,S,4.36,1,4.36,Suburb,Evan,
+30-Mar-2024,ORD100086,Herbal Mix,M,,3,7.71,Mall,Chen,
+31/01/2023,ORD100782,Earl Grey,S,$2.01,2,4.02,Mall,Bob,
+04/05/2023,ORD100602,Mint Tea,M,9.55,2,19.1,Uptown,Evan,
+09-Jan-2024,ORD100847,Green Tea,M,4.15,3,12.45,Airport,Diana,
+Dec 26 2024,ORD100261,Mint Tea,S,3.22,1,3.22,Downtown,Alice,
+Dec 19 2023,ORD100381,Mint Tea,L,2.33,2,4.66,Mall,Chen,
+Apr 15 2023,ORD100048,Lemon Tea,S,"6.68,00",2,13.36,Suburb,Alice,coupon
+2024-01-18,ORD100831,Green Tea,S,$1.81,1,1.81,Mall,Bob,promo
+May 04 2023,ORD100618,Lemon Tea,M,2.11,1,2.11,Mall,Alice,promo
+03-Jul-2023,ORD100894,Mint Tea,S,4.36,2,8.72,Airport,Bob,
+2023-10-11,ORD100867,Oolong,M,5.7,3,17.1,Airport,Alice,promo
+05-Feb-2024,ORD100719,Black Tea,L,9.34,3,28.02,Mall,Alice,
+Apr 09 2023,ORD100529,Oolong,S,2.39,2,4.78,Uptown,Alice,promo
+2023-10-19,ORD100118,Oolong,M,5.3,1,5.3,Uptown,Diana,
+2023-02-09,ORD100032,Lemon Tea,M,4.5,2,9.0,Airport,Bob,
+12-Nov-2023,ORD100267,Mint Tea,M,8.78,2,17.56,Mall,Chen,
+16-Oct-2024,ORD100478,Chamomile,M,7.2,1,7.2,Downtown,Chen,
+Oct 27 2024,ORD100223,Oolong,M,2.53,3,7.59,Uptown,Alice,coupon
+13-Dec-2023,ORD100264,Green Tea,M,9.15,1,9.15,Suburb,Bob,
+07/10/2023,ORD100632,Earl Grey,M,3.44,3,10.32,Downtown,Evan,
+03/03/2024,ORD100525,Mint Tea,L,$8.54,1,8.54,Downtown,Evan,
+Nov 05 2024,ORD100811,Chamomile,M,$7.05,2,14.1,Downtown,Bob,coupon
+09-Feb-2023,ORD100275,Earl Grey,L,4.57,,,Suburb,Chen,
+08/12/2024,ORD100564,Chamomile,L,6.0,3,18.0,Uptown,Diana,
+Feb 12 2023,ORD100515,Lemon Tea,S,4.37,3,13.11,Suburb,Chen,
+08/05/2024,ORD100350,Lemon Tea,L,10.32,3,30.96,Mall,Chen,
+24/05/2023,ORD100212,Earl Grey,M,6.63,2,13.26,Mall,Evan,
+2024-12-29,ORD100295,Matcha,L,"4.74,00",1,4.74,Downtown,Alice,
+2023-05-22,ORD100355,Herbal Mix,M,7.91,2,15.82,Suburb,Evan,
+20/01/2024,ORD100444,Lemon Tea,L,6.05,1,6.05,Suburb,Alice,
+22/04/2023,ORD100017,Herbal Mix,S,4.99,2,,Downtown,Diana,
+10-Sep-2023,ORD100582,Black Tea,M,2.0,2,4.0,Downtown,Chen,
+11-Apr-2023,ORD100181,Earl Grey,S,3.91,1,3.91,Downtown,Chen,
+02/04/2023,ORD100159,Chamomile Blend,L,9.3,1,9.3,Uptown,Alice,
+2023-06-24,ORD100845,Lemon Tea,M,9.36,1,9.36,Downtown,Alice,coupon
+May 15 2023,ORD100599,Matcha,M,8.3,2,16.6,Uptown,Evan,
+08-Sep-2023,ORD100037,Lemon Tea,S,4.46,3,13.38,Mall,Diana,
+2023-02-21,ORD100018,Black Tea,S,2.58,2,5.16,Uptown,Diana,returned
+2023-04-02,ORD100460,Lemon Tea,L,6.19,1,6.19,Downtown,Alice,coupon
+02/04/2023,ORD100159,Chamomile Blend,L,9.3,1,9.3,Uptown,Alice,
+29-Jan-2024,ORD100357,Lemon Tea,L,7.33,1,7.33,Mall,Alice,coupon
+2024-10-06,ORD100372,Mint Tea,L,5.51,1,5.51,Mall,Alice,promo
+2024-03-20,ORD100592,Green Tea,M,2.71,3,8.13,Airport,Diana,coupon
+20-Aug-2023,ORD100842,Matcha,M,2.59,1,2.59,Uptown,Bob,coupon
+2023-12-08,ORD100860,Chamomile,L,6.94,3,20.82,Airport,Alice,promo
+17-Nov-2023,ORD100094,Earl Grey,L,4.74,2,9.48,Downtown,Alice,coupon
+2023-11-03,ORD100270,Matcha,L,2.59,2,5.18,Airport,Bob,
+Sep 27 2024,ORD100859,Green Tea,M,2.78,2,5.56,Downtown,Alice,
+Dec 14 2024,ORD100265,Chamomile,M,$3.65,2,7.3,Mall,Bob,
+27-Apr-2023,ORD100302,Matcha,M,3.92,2,7.84,Uptown,Alice,
+29-Nov-2023,ORD100749,Chamomile Blend,L,11.25,1,11.25,Downtown,Bob,
+23-Oct-2024,ORD100113,Chamomile Blend,M,1.94,1,,Mall,Bob,promo
+May 24 2023,ORD100783,Mint Tea,M,7.44,1,7.44,Uptown,Alice,
+2024-04-13,ORD100209,Chamomile,L,,2,21.32,Mall,Evan,coupon
+19-May-2023,ORD100218,Green Tea,M,8.56,1,8.56,Suburb,Bob,
+18-May-2023,ORD100423,Earl Grey,S,7.04,1,7.04,Mall,Alice,
+22/06/2024,ORD100323,Oolong,L,2.91,2,5.82,Suburb,Bob,coupon
+Sep 19 2024,ORD100578,Chamomile Blend,M,5.2,2,10.4,Uptown,Evan,
+06/07/2024,ORD100013,Chamomile,M,9.56,2,19.12,Uptown,Bob,
+Oct 30 2023,ORD100285,Matcha,M,$4.83,3,14.49,Uptown,Chen,promo
+2023-09-21,ORD100897,Earl Grey,L,9.25,1,9.25,Downtown,Evan,promo
+2023-06-21,ORD100293,Green Tea,M,9.2,2,18.4,Uptown,Chen,
+17/06/2024,ORD100388,Mint Tea,M,7.12,3,21.36,Airport,Evan,
+Oct 05 2023,ORD100054,Chamomile,S,2.28,2,4.56,Uptown,Bob,
+26/08/2023,ORD100791,Oolong,L,3.82,3,11.46,Airport,Chen,promo
+11/06/2023,ORD100135,Earl Grey,L,4.44,1,4.44,Downtown,Chen,coupon
+01-Jun-2023,ORD100804,Earl Grey,S,6.65,,,Mall,Bob,
+23/06/2024,ORD100779,Black Tea,S,3.85,1,3.85,Uptown,Alice,coupon
+29/12/2024,ORD100315,Herbal Mix,S,5.56,3,16.68,Uptown,Evan,coupon
+06-May-2024,ORD100252,Earl Grey,L,7.15,1,7.15,Downtown,Chen,
+21/04/2023,ORD100083,Mint Tea,S,5.53,2,11.06,Downtown,Diana,coupon
+22-May-2024,ORD100471,Matcha,S,5.79,2,11.58,Suburb,Alice,
+Jun 13 2024,ORD100876,Black Tea,S,$4.74,2,9.48,Uptown,Chen,coupon
+23/07/2023,ORD100653,Chamomile,S,2.92,2,5.84,Uptown,Alice,coupon
+2023-02-17,ORD100222,Mint Tea,S,2.31,1,2.31,Mall,Bob,promo
+06-Aug-2023,ORD100799,Black Tea,M,5.35,1,5.35,Suburb,Evan,
+08-Jan-2023,ORD100741,Chamomile Blend,L,5.61,2,11.22,Downtown,Evan,promo
+2024-08-16,ORD100020,Earl Grey,S,1.83,2,3.66,Airport,Alice,
+22/04/2023,ORD100017,Herbal Mix,S,4.99,2,9.98,Downtown,Diana,
+2023-05-22,ORD100605,Herbal Mix,M,"9.36,00",2,18.72,Airport,Bob,coupon
+09/03/2023,ORD100092,Chamomile,L,8.42,2,16.84,Mall,Evan,
+17/01/2023,ORD100190,Lemon Tea,S,6.39,1,6.39,Airport,Bob,
+29/08/2024,ORD100691,Herbal Mix,L,3.01,3,9.03,Mall,Bob,coupon
+2023-07-03,ORD100186,Black Tea,L,3.7,1,3.7,Mall,Alice,
+09/03/2023,ORD100092,Chamomile,L,8.42,2,16.84,Mall,Evan,
+2024-02-29,ORD100119,Matcha,L,5.9,,,Downtown,Chen,promo
+07-Mar-2023,ORD100090,Mint Tea,M,$5.8,2,11.6,Airport,Alice,coupon
+Sep 17 2024,ORD100474,Earl Grey,M,$3.88,3,11.64,Mall,Bob,promo
+24/02/2023,ORD100579,Oolong,S,$2.99,1,2.99,Mall,Diana,
+23/08/2024,ORD100088,Herbal Mix,M,7.84,1,7.84,Uptown,Bob,promo
+04/07/2023,ORD100581,Chamomile Blend,M,6.19,1,6.19,Airport,Bob,
+27-Jun-2023,ORD100813,Earl Grey,L,3.79,1,3.79,Airport,Diana,coupon
+19-Jun-2024,ORD100349,Oolong,L,3.19,1,3.19,Airport,Evan,
+Aug 03 2024,ORD100851,Chamomile,S,7.8,2,15.6,Airport,Chen,promo
+Feb 14 2024,ORD100359,Matcha,M,6.37,1,6.37,Airport,Chen,coupon
+Jan 03 2023,ORD100070,Chamomile,L,7.9,2,15.8,Suburb,Chen,
+2024-10-04,ORD100772,Green Tea,S,2.17,2,4.34,Uptown,Alice,
+2023-07-28,ORD100318,Earl Grey,M,2.6,1,2.6,Airport,Diana,coupon
+14-Feb-2023,ORD100003,Chamomile Blend,S,7.83,3,23.49,Suburb,Evan,
+Sep 22 2024,ORD100650,Matcha,M,3.07,1,3.07,Downtown,Bob,
+19-Jun-2023,ORD100761,Chamomile Blend,M,6.19,1,6.19,Uptown,Evan,
+03/03/2024,ORD100419,Lemon Tea,S,4.27,2,8.54,Uptown,Bob,promo
+Oct 24 2024,ORD100517,Mint Tea,M,9.36,3,28.08,Airport,Diana,
+30-Jul-2024,ORD100203,Earl Grey,M,$2.63,1,2.63,Airport,Evan,promo
+06/08/2024,ORD100623,Mint Tea,L,10.99,1,10.99,Suburb,Bob,
+Sep 16 2023,ORD100282,Chamomile,M,8.78,1,8.78,Airport,Evan,
+12-Oct-2023,ORD100045,Chamomile,S,"4.56,00",1,4.56,Downtown,Alice,promo
+13/12/2023,ORD100743,Chamomile Blend,S,3.39,1,3.39,Airport,Diana,coupon
+20-Oct-2024,ORD100176,Chamomile Blend,M,7.23,1,7.23,Mall,Bob,coupon
+15-Jan-2024,ORD100085,Lemon Tea,L,9.33,2,18.66,Suburb,Alice,promo
+26-Apr-2023,ORD100273,Oolong,S,5.18,1,5.18,Airport,Alice,coupon
+22-Feb-2023,ORD100151,Oolong,L,8.38,1,8.38,Uptown,Alice,
+12-May-2024,ORD100513,Mint Tea,M,6.22,1,6.22,Suburb,Chen,
+05-Aug-2023,ORD100189,Chamomile,S,7.51,2,15.02,Downtown,Bob,coupon
+2024-02-18,ORD100066,Chamomile Blend,M,5.02,2,10.04,Downtown,Bob,promo
+19-May-2023,ORD100218,Green Tea,M,8.56,1,8.56,Suburb,Bob,
+2023-09-15,ORD100685,Lemon Tea,M,9.46,3,28.38,Uptown,Chen,
+2024-03-14,ORD100683,Herbal Mix,S,"2.19,00",3,6.57,Mall,Bob,
+2024-12-13,ORD100276,Herbal Mix,S,,1,3.45,Mall,Evan,promo
+03/01/2024,ORD100294,Oolong,M,1.95,1,1.95,Airport,Evan,coupon
+09/04/2023,ORD100857,Chamomile Blend,M,7.21,1,7.21,Mall,Diana,
+07-Mar-2023,ORD100090,Mint Tea,M,$5.8,2,11.6,Airport,Alice,coupon
+2024-06-26,ORD100528,Chamomile Blend,S,6.48,1,6.48,Suburb,Chen,coupon
+Dec 28 2024,ORD100375,Lemon Tea,L,6.11,1,6.11,Airport,Diana,promo
+22/08/2023,ORD100846,Oolong,S,2.15,2,4.3,Airport,Chen,coupon
+04/09/2023,ORD100173,Black Tea,S,5.36,1,5.36,Downtown,Diana,promo
+2024-02-20,ORD100726,Matcha,L,10.22,1,10.22,Airport,Evan,
+Dec 27 2023,ORD100839,Black Tea,L,3.07,2,6.14,Suburb,Alice,coupon
+01-Sep-2023,ORD100688,Earl Grey,S,3.31,2,6.62,Mall,Chen,promo
+2023-02-15,ORD100026,Earl Grey,S,5.64,2,11.28,Airport,Alice,promo
+22/04/2023,ORD100017,Herbal Mix,S,4.99,2,9.98,Downtown,Diana,
+29/04/2023,ORD100205,Earl Grey,M,,1,4.48,Mall,Diana,coupon
+Jun 25 2023,ORD100670,Matcha,M,$3.02,2,6.04,Downtown,Diana,promo
+04-Dec-2023,ORD100198,Earl Grey,M,8.16,1,8.16,Airport,Bob,promo
+2023-07-24,ORD100046,Lemon Tea,S,3.05,1,3.05,Suburb,Chen,
+21/10/2023,ORD100557,Chamomile,L,8.11,,,Suburb,Diana,
+21-Jan-2024,ORD100099,Mint Tea,M,3.03,2,6.06,Downtown,Bob,
+2024-06-10,ORD100321,Matcha,S,4.29,2,8.58,Downtown,Chen,promo
+Nov 27 2023,ORD100063,Green Tea,S,2.99,2,5.98,Suburb,Evan,promo
+2023-08-01,ORD100727,Oolong,L,$9.03,2,18.06,Downtown,Alice,promo
+2024-01-07,ORD100652,Black Tea,M,$2.03,1,2.03,Airport,Chen,
+Jul 07 2023,ORD100454,Earl Grey,M,$5.6,1,5.6,Mall,Bob,coupon
+2023-04-27,ORD100057,Matcha,M,"2.38,00",1,2.38,Suburb,Alice,
+2024-09-03,ORD100122,Chamomile Blend,L,4.61,2,9.22,Airport,Diana,
+03-Jul-2023,ORD100429,Lemon Tea,L,10.98,1,10.98,Uptown,Alice,
+26-Oct-2024,ORD100084,Black Tea,S,$1.79,2,3.58,Uptown,Evan,
+07/04/2024,ORD100134,Mint Tea,S,6.77,3,20.31,Downtown,Evan,coupon
+11-Apr-2023,ORD100181,Earl Grey,S,3.91,1,3.91,Downtown,Chen,
+31-Dec-2023,ORD100722,Oolong,S,2.26,2,4.52,Mall,Bob,promo
+21-Jan-2024,ORD100099,Mint Tea,M,3.03,2,6.06,Downtown,Bob,
+12/09/2024,ORD100730,Black Tea,L,10.24,1,10.24,Uptown,Bob,promo
+19-May-2024,ORD100627,Black Tea,M,2.27,,,Uptown,Alice,
+2024-02-27,ORD100029,Oolong,L,11.26,3,33.78,Uptown,Chen,
+29/03/2024,ORD100378,Oolong,L,$10.43,3,31.29,Suburb,Diana,coupon
+25/09/2023,ORD100022,Earl Grey,S,3.23,2,6.46,Downtown,Alice,
+2023-08-30,ORD100106,Oolong,M,3.34,3,10.02,Mall,Diana,
+2024-03-08,ORD100558,Herbal Mix,S,$3.27,1,3.27,Uptown,Alice,
+15/07/2023,ORD100663,Chamomile Blend,M,1.87,2,3.74,Airport,Alice,promo
+2023-12-21,ORD100880,Matcha,L,9.46,2,18.92,Suburb,Alice,
+25/12/2024,ORD100177,Mint Tea,S,5.16,1,5.16,Suburb,Bob,
+16/08/2024,ORD100502,Lemon Tea,S,7.44,1,7.44,Mall,Evan,
+2023-02-04,ORD100465,Lemon Tea,M,$7.3,2,14.6,Downtown,Bob,coupon
+27-Sep-2024,ORD100647,Oolong,S,$2.39,1,2.39,Mall,Evan,coupon
+2023-10-12,ORD100622,Oolong,L,2.49,1,2.49,Downtown,Evan,
+Nov 14 2024,ORD100039,Mint Tea,L,10.2,2,20.4,Uptown,Diana,promo
+07/05/2023,ORD100735,Chamomile Blend,L,10.79,1,10.79,Airport,Chen,
+Oct 13 2023,ORD100031,Chamomile Blend,M,7.1,1,7.1,Suburb,Bob,coupon
+2023-04-02,ORD100585,Herbal Mix,S,4.03,3,12.09,Suburb,Diana,coupon
+25-Jul-2024,ORD100058,Lemon Tea,L,9.96,2,19.92,Suburb,Evan,coupon
+Feb 18 2023,ORD100640,Matcha,L,$6.63,1,6.63,Airport,Alice,promo
+Jun 17 2023,ORD100280,Black Tea,M,$2.01,2,4.02,Uptown,Bob,promo
+Mar 21 2023,ORD100787,Lemon Tea,M,2.02,1,2.02,Downtown,Chen,promo
+2024-10-28,ORD100721,Earl Grey,L,$10.6,1,10.6,Mall,Bob,
+Apr 03 2023,ORD100712,Herbal Mix,L,9.72,2,19.44,Mall,Evan,
+2024-02-08,ORD100044,Black Tea,L,6.43,1,6.43,Uptown,Diana,
+2023-03-22,ORD100407,Earl Grey,M,8.66,1,8.66,Uptown,Evan,
+Mar 12 2024,ORD100490,Matcha,M,2.74,1,2.74,Uptown,Alice,coupon
+25-Mar-2023,ORD100657,Lemon Tea,S,2.59,2,5.18,Airport,Diana,coupon
+18/09/2024,ORD100260,Lemon Tea,S,,1,7.59,Suburb,Bob,
+11/10/2023,ORD100662,Black Tea,S,$1.96,1,1.96,Suburb,Chen,coupon
+01-Dec-2023,ORD100034,Chamomile,L,3.49,3,10.47,Uptown,Evan,
+01-Jun-2024,ORD100279,Black Tea,L,2.55,1,2.55,Mall,Evan,coupon
+05-Apr-2024,ORD100621,Oolong,L,5.42,2,10.84,Mall,Chen,
+06/07/2024,ORD100013,Chamomile,M,9.56,2,19.12,Uptown,Bob,
+Jun 01 2023,ORD100514,Chamomile,M,9.26,2,18.52,Uptown,Bob,
+Nov 11 2023,ORD100259,Oolong,S,6.24,2,12.48,Airport,Alice,coupon
+2024-07-15,ORD100377,Green Tea,M,5.89,2,11.78,Mall,Chen,coupon
+22-Feb-2023,ORD100151,Oolong,L,8.38,1,8.38,Uptown,Alice,
+Jan 05 2023,ORD100336,Herbal Mix,S,6.13,1,6.13,Suburb,Diana,coupon
+2023-01-14,ORD100317,Green Tea,M,2.93,1,2.93,Suburb,Bob,coupon
+14-Nov-2024,ORD100600,Oolong,S,2.8,2,5.6,Mall,Chen,
+28-Aug-2024,ORD100240,Herbal Mix,L,,1,11.03,Downtown,Bob,
+Feb 12 2024,ORD100199,Chamomile,L,9.03,1,9.03,Suburb,Diana,promo
+29-Apr-2023,ORD100538,Chamomile,M,6.48,2,12.96,Mall,Chen,
+10/01/2024,ORD100369,Mint Tea,M,3.44,2,6.88,Uptown,Evan,promo
+Apr 16 2023,ORD100827,Lemon Tea,L,2.98,2,5.96,Suburb,Bob,
+29/08/2024,ORD100200,Chamomile Blend,S,7.69,2,15.38,Downtown,Diana,promo
+2024-01-17,ORD100248,Lemon Tea,L,"4.77,00",1,4.77,Mall,Bob,coupon
+Sep 18 2024,ORD100765,Earl Grey,S,$5.57,1,5.57,Suburb,Bob,
+29-Sep-2023,ORD100019,Chamomile,M,7.23,3,21.69,Uptown,Bob,
+08/03/2024,ORD100383,Chamomile Blend,L,10.12,3,30.36,Suburb,Diana,
+12/09/2023,ORD100391,Mint Tea,S,5.96,3,17.88,Suburb,Bob,
+2023-04-16,ORD100195,Black Tea,M,6.12,,,Mall,Diana,promo
+2024-05-25,ORD100828,Chamomile,M,2.73,2,5.46,Airport,Alice,
+2024-02-09,ORD100631,Oolong,L,7.68,2,15.36,Suburb,Chen,
+19-May-2023,ORD100218,Green Tea,M,8.56,1,8.56,Suburb,Bob,
+2024-08-16,ORD100020,Earl Grey,S,1.83,2,3.66,Airport,Alice,
+25/12/2023,ORD100745,Matcha,M,1.87,2,3.74,Uptown,Diana,
+27-Nov-2024,ORD100354,Herbal Mix,M,6.11,2,12.22,Suburb,Chen,
+Mar 11 2023,ORD100686,Green Tea,L,11.14,3,33.42,Airport,Alice,
+Jan 01 2024,ORD100789,Matcha,L,4.15,1,4.15,Downtown,Chen,
+30/03/2023,ORD100477,Matcha,L,9.7,1,9.7,Uptown,Chen,
+Jun 21 2023,ORD100374,Matcha,L,8.22,1,8.22,Uptown,Chen,coupon
+11/09/2024,ORD100025,Earl Grey,S,5.97,1,5.97,Downtown,Alice,coupon
+24/06/2023,ORD100076,blacktea,L,10.74,2,21.48,Mall,Chen,
+14-Jun-2023,ORD100356,Green Tea,S,6.85,1,6.85,Uptown,Chen,
+23/05/2023,ORD100667,Earl Grey,L,8.39,2,16.78,Uptown,Diana,
+16/02/2023,ORD100004,Chamomile,S,7.06,2,14.12,Suburb,Bob,promo
+2023-06-24,ORD100571,Green Tea,L,7.38,3,22.14,Uptown,Bob,coupon
+Jun 20 2024,ORD100123,Black Tea,L,7.55,1,7.55,Mall,Alice,coupon
+Apr 21 2024,ORD100077,Chamomile Blend,S,,1,1.98,Mall,Chen,coupon
+08/09/2024,ORD100256,Green Tea,L,6.91,1,6.91,Uptown,Chen,promo
+Jun 19 2024,ORD100807,Black Tea,S,4.48,1,4.48,Mall,Chen,
+Jun 14 2023,ORD100711,Matcha,M,3.52,3,10.56,Uptown,Evan,
+30-Mar-2023,ORD100501,Chamomile Blend,M,8.53,2,17.06,Mall,Bob,
+Sep 23 2024,ORD100452,Chamomile,M,8.18,2,16.36,Mall,Evan,
+Jul 17 2024,ORD100147,Lemon Tea,L,8.21,1,8.21,Suburb,Evan,promo
+12/06/2024,ORD100447,Herbal Mix,L,2.61,,,Downtown,Evan,coupon
+21-Jan-2024,ORD100869,Lemon Tea,L,4.01,3,12.03,Uptown,Chen,coupon
+30/10/2024,ORD100728,Black Tea,L,4.75,1,4.75,Suburb,Evan,
+Nov 02 2024,ORD100284,Herbal Mix,S,"4.86,00",2,9.72,Suburb,Bob,
+15/11/2023,ORD100648,Oolong,M,4.21,1,4.21,Uptown,Alice,
+19-Jan-2024,ORD100170,Mint Tea,M,4.73,2,9.46,Suburb,Alice,
+16/05/2024,ORD100219,Lemon Tea,L,4.87,3,14.61,Downtown,Diana,coupon
+Jul 18 2024,ORD100886,Herbal Mix,L,10.96,1,10.96,Mall,Evan,
+13-Nov-2023,ORD100080,Green Tea,L,5.81,1,5.81,Uptown,Bob,coupon
+2024-05-25,ORD100543,Oolong,M,6.52,2,13.04,Downtown,Evan,
+Dec 06 2023,ORD100324,Chamomile,S,7.68,2,15.36,Downtown,Alice,
+2024-09-18,ORD100024,Chamomile Blend,M,$9.07,1,9.07,Downtown,Evan,coupon
+Mar 19 2023,ORD100192,Lemon Tea,L,11.56,1,11.56,Mall,Diana,
+2023-12-28,ORD100363,Chamomile,S,3.37,1,3.37,Uptown,Diana,promo
+2023-05-19,ORD100278,oolong,S,"7.19,00",1,,Suburb,Bob,
+11-Feb-2024,ORD100723,Chamomile,L,8.06,3,24.18,Downtown,Diana,
+09/10/2023,ORD100394,Black Tea,L,3.76,1,3.76,Airport,Diana,
+Dec 14 2023,ORD100792,Earl Grey,L,10.6,3,31.8,Uptown,Evan,promo
+May 25 2024,ORD100386,Mint Tea,L,9.97,1,9.97,Mall,Alice,promo
+Nov 19 2023,ORD100402,Earl Grey,M,7.76,2,15.52,Airport,Bob,coupon
+Jan 30 2023,ORD100573,Chamomile,S,5.51,3,16.53,Downtown,Alice,coupon
+2024-12-22,ORD100246,Herbal Mix,M,2.96,2,5.92,Suburb,Chen,promo
+Nov 17 2024,ORD100005,Black Tea,L,8.44,2,16.88,Airport,Bob,
+22/05/2023,ORD100778,Matcha,M,6.08,2,12.16,Mall,Alice,
+26/10/2023,ORD100512,Black Tea,S,7.17,3,21.51,Airport,Chen,coupon
+01-Nov-2024,ORD100309,Earl Grey,M,8.24,1,8.24,Airport,Evan,coupon
+2023-10-25,ORD100334,Chamomile,S,2.78,1,2.78,Uptown,Alice,
+Feb 25 2024,ORD100274,Matcha,L,,1,,Airport,Evan,
+2024-10-12,ORD100680,Matcha,L,$5.26,1,5.26,Mall,Bob,coupon
+2023-02-20,ORD100435,Matcha,S,2.55,3,7.65,Airport,Bob,coupon
+Jul 16 2024,ORD100450,Chamomile,S,7.63,1,7.63,Airport,Chen,
+16/01/2023,ORD100884,Green Tea,S,1.87,1,1.87,Uptown,Chen,
+29/02/2024,ORD100523,Chamomile Blend,M,7.34,1,7.34,Suburb,Evan,coupon
+2023-01-30,ORD100140,Green Tea,L,9.77,2,19.54,Downtown,Diana,coupon
+29/10/2023,ORD100053,Matcha,L,4.62,2,9.24,Mall,Evan,
+31-May-2024,ORD100161,Chamomile,S,6.76,3,,Uptown,Alice,coupon
+2024-11-13,ORD100028,Earl Grey,L,10.87,1,10.87,Uptown,Bob,promo
+2024-10-16,ORD100000,Green Tea,L,4.93,3,14.79,Airport,Alice,
+Jul 07 2024,ORD100486,Mint Tea,L,11.66,1,11.66,Downtown,Chen,
+01-Feb-2023,ORD100247,Mint Tea,L,9.54,1,9.54,Downtown,Bob,
+May 18 2023,ORD100146,Earl Grey,M,4.65,1,4.65,Suburb,Alice,
+2024-05-01,ORD100150,Earl Grey,M,7.06,3,21.18,Downtown,Evan,promo
+02/04/2023,ORD100159,Chamomile Blend,L,9.3,1,9.3,Uptown,Alice,
+14/05/2024,ORD100043,Chamomile,M,,2,11.18,Mall,Bob,
+2024-12-19,ORD100093,Chamomile Blend,L,10.69,2,21.38,Mall,Diana,
+01/11/2024,ORD100073,Black Tea,M,,2,15.8,Suburb,Evan,coupon
+2023-02-15,ORD100237,Herbal Mix,S,4.57,1,4.57,Mall,Bob,
+Mar 14 2024,ORD100802,Chamomile,S,2.79,2,5.58,Uptown,Diana,
+07/01/2023,ORD100002,Matcha,M,3.97,1,3.97,Downtown,Chen,coupon
+Apr 16 2024,ORD100172,Oolong,M,3.27,1,3.27,Mall,Evan,
+Jul 04 2024,ORD100214,Oolong,M,6.21,2,12.42,Downtown,Chen,coupon
+24-Mar-2023,ORD100484,Chamomile,L,4.23,3,12.69,Mall,Alice,coupon
+Nov 04 2024,ORD100684,Lemon Tea,M,2.14,2,4.28,Downtown,Evan,promo
+Oct 07 2023,ORD100630,Matcha,M,8.37,1,8.37,Airport,Evan,
+2023-11-08,ORD100754,Chamomile,M,3.99,1,3.99,Uptown,Alice,coupon
+2024-12-05,ORD100826,Earl Grey,S,4.52,2,9.04,Suburb,Evan,promo
+Jan 08 2023,ORD100283,Chamomile Blend,L,8.04,2,16.08,Suburb,Chen,coupon
+04/03/2024,ORD100211,Lemon Tea,M,5.1,3,15.3,Uptown,Evan,coupon
+2023-09-17,ORD100124,Earl Grey,S,3.74,2,7.48,Suburb,Bob,coupon
+19/08/2023,ORD100873,Oolong,M,8.15,,,Downtown,Bob,promo
+29/05/2024,ORD100790,Green Tea,L,10.01,1,10.01,Uptown,Diana,
+2024-08-05,ORD100589,Chamomile Blend,S,7.46,2,14.92,Airport,Chen,
+2023-01-31,ORD100001,Herbal Mix,S,$4.78,1,4.78,Airport,Diana,coupon
+09-May-2023,ORD100392,Herbal Mix,M,9.46,2,18.92,Downtown,Diana,promo
+10/09/2024,ORD100784,Chamomile Blend,S,1.57,2,3.14,Suburb,Evan,promo
+Mar 31 2024,ORD100660,Herbal Mix,L,2.65,2,5.3,Mall,Chen,coupon
+Jan 19 2023,ORD100601,Chamomile,M,7.08,2,14.16,Downtown,Chen,promo
+24/08/2024,ORD100534,Oolong,L,$5.68,3,17.04,Airport,Chen,promo
+Jan 23 2024,ORD100816,Green Tea,M,"2.45,00",2,4.9,Downtown,Diana,
+2023-04-16,ORD100129,Earl Grey,L,5.13,1,5.13,Suburb,Diana,coupon
+Jan 22 2023,ORD100104,Oolong,L,6.74,2,13.48,Uptown,Diana,
+Oct 10 2024,ORD100201,Herbal Mix,M,6.94,1,6.94,Airport,Diana,
+26/08/2024,ORD100269,Chamomile Blend,S,6.97,2,13.94,Mall,Evan,
+30/10/2023,ORD100182,Herbal Mix,M,3.59,2,7.18,Suburb,Chen,
+03-Dec-2024,ORD100286,Earl Grey,L,5.18,2,10.36,Downtown,Diana,coupon
+12-Aug-2023,ORD100221,Herbal Mix,M,3.89,2,7.78,Mall,Chen,
+2023-12-06,ORD100748,Oolong,L,4.19,1,4.19,Mall,Evan,promo
+Feb 10 2024,ORD100105,Earl Grey,S,3.66,1,3.66,Uptown,Chen,promo
+21-Dec-2023,ORD100156,Chamomile,L,6.92,2,13.84,Uptown,Alice,promo
+Feb 29 2024,ORD100606,Herbal Mix,S,6.4,1,6.4,Mall,Diana,coupon
+12-Sep-2024,ORD100079,Chamomile,S,5.45,2,10.9,Uptown,Alice,
+18/04/2024,ORD100207,Matcha,L,4.05,1,4.05,Uptown,Diana,
+2024-11-13,ORD100675,Herbal Mix,M,5.01,1,5.01,Downtown,Evan,coupon
+17/02/2023,ORD100656,Chamomile Blend,M,"7.96,00",1,7.96,Airport,Evan,promo
+24-Jul-2023,ORD100554,Matcha,M,6.67,1,6.67,Airport,Bob,promo
+10-Dec-2024,ORD100574,Herbal Mix,L,5.99,1,5.99,Downtown,Alice,promo
+2024-01-27,ORD100030,Mint Tea,S,2.8,1,2.8,Uptown,Diana,
+25-Dec-2023,ORD100412,Lemon Tea,S,4.36,3,13.08,Downtown,Alice,promo
+09/03/2024,ORD100785,Chamomile,S,4.89,1,4.89,Downtown,Bob,
+06/07/2024,ORD100013,Chamomile,M,9.56,2,19.12,Uptown,Bob,
+24/01/2023,ORD100376,Herbal Mix,L,4.7,1,4.7,Downtown,Alice,
+04/06/2024,ORD100313,Lemon Tea,S,6.25,2,12.5,Suburb,Evan,
+08/01/2023,ORD100746,Chamomile,S,4.56,1,4.56,Suburb,Alice,
+04-Apr-2024,ORD100598,Green Tea,S,3.37,1,3.37,Airport,Chen,
+2023-02-06,ORD100436,Chamomile,M,4.67,2,9.34,Downtown,Chen,
+27-Oct-2024,ORD100888,Black Tea,S,$4.74,1,4.74,Suburb,Alice,
+2023-04-11,ORD100840,Matcha,L,11.3,1,11.3,Airport,Evan,
+01/04/2023,ORD100291,Lemon Tea,M,6.74,,,Airport,Bob,
+03-Oct-2023,ORD100281,Chamomile Blend,S,7.12,2,14.24,Uptown,Evan,promo
+Jan 05 2024,ORD100197,Herbal Mix,L,8.34,1,8.34,Downtown,Diana,
+25/08/2024,ORD100014,Lemon Tea,S,"1.55,00",1,1.55,Suburb,Alice,coupon
+08-Apr-2023,ORD100643,Lemon Tea,S,$2.06,1,2.06,Downtown,Bob,
+Dec 05 2024,ORD100353,Matcha,M,2.63,1,2.63,Mall,Evan,coupon
+2023-01-18,ORD100231,Green Tea,M,3.48,2,6.96,Airport,Diana,
+03/01/2024,ORD100294,Oolong,M,1.95,1,1.95,Airport,Evan,coupon
+22-Oct-2023,ORD100572,Matcha,S,4.3,1,4.3,Uptown,Diana,promo
+30/09/2024,ORD100651,Herbal Mix,M,7.53,3,22.59,Mall,Bob,
+2023-07-19,ORD100358,Lemon Tea,L,7.28,1,7.28,Downtown,Bob,coupon
+Dec 02 2023,ORD100144,herbalmix,S,,1,4.74,Downtown,Diana,promo
+22/05/2024,ORD100160,Chamomile,S,1.56,1,1.56,Airport,Evan,promo
+07/11/2024,ORD100608,Lemon Tea,S,7.86,2,15.72,Mall,Diana,coupon
+Feb 02 2024,ORD100479,Green Tea,M,9.25,2,18.5,Uptown,Evan,
+2024-10-18,ORD100639,Earl Grey,M,8.39,2,16.78,Suburb,Evan,promo
+2024-03-25,ORD100062,Mint Tea,L,5.21,2,10.42,Downtown,Evan,
+20-Apr-2023,ORD100038,Herbal Mix,S,6.73,2,13.46,Downtown,Diana,
+15/12/2024,ORD100056,Mint Tea,S,7.17,2,14.34,Downtown,Chen,
+2023-05-10,ORD100469,Chamomile,M,2.83,1,2.83,Airport,Bob,promo
+2023-10-01,ORD100550,Mint Tea,L,2.47,1,2.47,Mall,Alice,promo
+2023-12-27,ORD100096,Lemon Tea,L,4.32,1,4.32,Airport,Chen,coupon
+22-Jun-2023,ORD100710,Black Tea,M,6.97,3,20.91,Downtown,Diana,
+Apr 01 2024,ORD100204,Matcha,M,7.82,1,7.82,Mall,Alice,
+Mar 19 2023,ORD100192,Lemon Tea,L,11.56,1,11.56,Mall,Diana,
+03-Jul-2023,ORD100718,Matcha,M,9.48,1,9.48,Suburb,Diana,coupon
+2024-12-10,ORD100319,Matcha,M,5.05,2,10.1,Suburb,Bob,
+Nov 17 2024,ORD100005,Black Tea,L,8.44,2,16.88,Airport,Bob,
+2023-08-19,ORD100068,Mint Tea,S,5.71,1,5.71,Suburb,Diana,
+2024-04-01,ORD100481,Mint Tea,S,$5.74,1,5.74,Suburb,Bob,
+Jul 28 2024,ORD100153,Mint Tea,L,5.92,2,11.84,Suburb,Chen,promo
+19-Oct-2024,ORD100183,Mint Tea,S,6.26,2,12.52,Airport,Alice,
+2024-06-17,ORD100426,Mint Tea,M,$8.25,1,8.25,Mall,Alice,
+04/09/2023,ORD100325,Green Tea,L,10.89,1,10.89,Airport,Chen,coupon
+2024-04-09,ORD100010,Chamomile,L,9.68,3,29.04,Airport,Evan,coupon
+2024-05-13,ORD100485,Mint Tea,L,$4.1,1,4.1,Airport,Bob,
+18-Jul-2023,ORD100849,Black Tea,M,8.64,2,17.28,Airport,Bob,coupon
+23-Nov-2024,ORD100732,Oolong,L,4.24,3,12.72,Uptown,Chen,promo
+08-Aug-2023,ORD100536,Earl Grey,L,8.0,1,8.0,Mall,Diana,promo
+2024-04-12,ORD100168,Chamomile Blend,M,"7.05,00",1,7.05,Uptown,Evan,
+08/05/2023,ORD100138,Chamomile,S,2.55,2,5.1,Downtown,Chen,coupon
+04/08/2024,ORD100162,Oolong,L,,2,21.2,Mall,Alice,promo
+Jun 28 2023,ORD100872,Black Tea,L,6.63,2,13.26,Suburb,Diana,coupon
+07/01/2023,ORD100002,Matcha,M,3.97,1,3.97,Downtown,Chen,coupon
+2024-07-01,ORD100764,Green Tea,L,5.64,1,5.64,Airport,Chen,
+29-Sep-2023,ORD100019,Chamomile,M,7.23,3,21.69,Uptown,Bob,
+2023-03-19,ORD100338,Chamomile Blend,L,2.55,2,5.1,Downtown,Evan,
+02-Jan-2024,ORD100298,Chamomile,S,1.76,2,3.52,Downtown,Alice,
+01-Dec-2023,ORD100034,Chamomile,L,3.49,3,10.47,Uptown,Evan,
+Jan 13 2023,ORD100473,Mint Tea,M,7.09,1,7.09,Airport,Chen,
+06-Dec-2024,ORD100483,Black Tea,L,7.47,1,7.47,Downtown,Chen,coupon
+23/08/2024,ORD100257,Black Tea,L,10.64,3,31.92,Downtown,Chen,promo
+26-Aug-2024,ORD100619,Green Tea,M,8.73,,,Airport,Chen,
+23-May-2023,ORD100531,Lemon Tea,L,9.69,1,9.69,Downtown,Bob,promo
+2023-01-18,ORD100231,Green Tea,M,3.48,2,6.96,Airport,Diana,
+Aug 28 2024,ORD100731,Chamomile,S,6.24,1,6.24,Uptown,Diana,coupon
+2023-07-24,ORD100046,Lemon Tea,S,3.05,1,3.05,Suburb,Chen,
+10/09/2023,ORD100628,Chamomile,L,$6.22,3,18.66,Uptown,Chen,promo
+05-Nov-2024,ORD100016,Earl Grey,M,"5.01,00",3,15.03,Downtown,Alice,coupon
+2024-04-13,ORD100209,Chamomile,L,10.66,2,21.32,Mall,Evan,coupon
+2023-01-02,ORD100701,Black Tea,L,6.32,2,12.64,Suburb,Bob,promo
+Nov 02 2024,ORD100127,Chamomile,S,,2,13.4,Mall,Chen,
+29/09/2024,ORD100297,Matcha,S,4.83,1,4.83,Airport,Bob,promo
+Dec 02 2023,ORD100144,Herbal Mix,S,4.74,1,4.74,Downtown,Diana,promo
+2023-12-19,ORD100169,Chamomile Blend,S,$7.57,2,15.14,Mall,Bob,
+12-Jul-2023,ORD100665,Matcha,S,"4.35,00",1,4.35,Uptown,Chen,
+May 26 2023,ORD100577,Black Tea,M,2.14,1,2.14,Mall,Chen,coupon
+22-Dec-2023,ORD100380,Chamomile Blend,S,6.73,1,6.73,Downtown,Alice,promo
+2024-04-13,ORD100209,Chamomile,L,10.66,2,21.32,Mall,Evan,coupon
+09-Sep-2023,ORD100629,Chamomile Blend,M,2.13,2,4.26,Uptown,Alice,
+2024-01-02,ORD100330,Chamomile,L,$5.19,2,10.38,Downtown,Diana,promo
+2024-06-01,ORD100535,Black Tea,L,9.69,1,9.69,Airport,Alice,
+28/03/2024,ORD100277,Matcha,L,6.97,1,6.97,Uptown,Alice,
+20-Oct-2023,ORD100692,Herbal Mix,M,8.53,1,8.53,Uptown,Diana,
