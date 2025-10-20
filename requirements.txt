@@ -1,4 +1,4 @@
-Flask>=2.0
+Flask>=2.2
 matplotlib
 numpy
 openpyxl
@@ -7,3 +7,8 @@ plotly
 pmdarima
 scikit-learn
 xgboost
+gunicorn
+Flask-Session
+Flask-SQLAlchemy
+psycopg2-binary
+boto3

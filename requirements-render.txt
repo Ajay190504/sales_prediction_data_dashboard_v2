@@ -1,0 +1,16 @@
+Flask>=2.2
+pandas
+numpy
+scikit-learn
+plotly
+gunicorn
+openpyxl
+matplotlib
+
+# Optional (remove if you want faster builds):
+# pmdarima
+# xgboost
+# boto3
+# psycopg2-binary
+# Flask-Session
+# Flask-SQLAlchemy

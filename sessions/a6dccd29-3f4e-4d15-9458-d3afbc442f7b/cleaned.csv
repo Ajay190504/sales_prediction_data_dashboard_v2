@@ -1,0 +1,56 @@
+date,product,size,region,channel,units_sold,price,revenue
+2024-04-01,TShirt,S,East,Online,20.0,$10.00,198.54
+2024-01-05,TShirt,S,North,Online,10.0,$10.00,99.44
+2024-03-01,jeans,L,North,Online,10.0,$10.00,99.96
+2024-05-01,Jacket,L,South,Online,10.0, 12.5 ,121.74
+2024-04-01,Jacket,L,East,Online,5.0,Unknown,147.64
+2024-04-01,TShirt,S,North,Online,15.0, 12.5 ,147.64
+2024-05-01,tshirt ,L,North,Retail,5.0, 12.5 ,67.19
+2024-04-15,tshirt ,M,East,Retail,10.0,"10,00",100.67
+2024-04-01,tshirt ,XL,East,Retail,15.0,$10.00,147.64
+2024-03-01,Jeans,M,South,Retail,15.0, 12.5 ,189.3
+2024-05-01,TShirt,M,West,Retail,20.0,10,200.33
+2024-04-15,T-Shirt,M,West,Online,20.0,10,200.83
+,tshirt ,XL,East,Online,15.0,10,148.69
+2024-01-05,TShirt,M,South,Online,20.0,Unknown,147.64
+2024-04-15,tshirt ,XL,East,Online,15.0,"10,00",148.01
+2024-04-15,Jacket,XL,South,Online,15.0, 12.5 ,147.64
+2024-05-01,jeans,XL,West,Retail,15.0,"10,00",150.93
+2024-03-01,tshirt ,S,North,Retail,15.0,"10,00",147.64
+2024-04-15,Jacket,S,West,Online,15.0,$10.00,148.48
+2024-04-15,Jeans,L,North,Retail,5.0,10,52.22
+2024-03-01,Jacket,S,South,Online,15.0,10,150.01
+2024-03-01,jeans,M,South,Online,20.0,Unknown,147.64
+,jeans,XL,East,Online,10.0,Unknown,147.64
+2024-03-01,T-Shirt,S,North,Online,15.0,10,145.72
+2024-05-01,T-Shirt,XL,West,Retail,10.0,Unknown,147.64
+2024-04-01,jeans,M,South,Online,5.0,Unknown,147.64
+2024-03-01,tshirt ,M,West,Retail,20.0,10,199.17
+2024-05-01,Jeans,XL,North,Retail,5.0, 12.5 ,62.66
+2024-04-01,Jeans,M,West,Retail,15.0,Unknown,147.64
+2024-03-01,TShirt,L,West,Retail,10.0, 12.5 ,122.43
+2024-01-05,tshirt ,M,South,Retail,5.0,Unknown,147.64
+2024-04-15,TShirt,S,East,Online,15.0,"10,00",147.64
+,Jacket,XL,West,Online,20.0,"10,00",203.48
+2024-04-01,T-Shirt,L,East,Online,15.0,"10,00",147.64
+2024-03-01,Jacket,M,East,Online,15.0,Unknown,147.64
+2024-05-01,tshirt ,L,North,Retail,20.0,Unknown,147.64
+2024-04-15,TShirt,XL,East,Online,15.0,$10.00,148.44
+2024-03-01,tshirt ,XL,North,Retail,15.0,$10.00,147.64
+,Denim,M,North,Retail,15.0,$20,147.64
+2024-03-01,jeans,M,West,Online,5.0, 12.5 ,64.85
+2024-03-01,Jeans,S,East,Online,15.0,"10,00",150.16
+2024-01-05,jeans,L,North,Retail,15.0,"10,00",150.01
+2024-01-05,Jacket,S,South,Retail,10.0,Unknown,147.64
+2024-05-01,jeans,XL,North,Retail,20.0,Unknown,147.64
+2024-01-05,T-Shirt,L,North,Retail,15.0,$10.00,147.64
+2024-03-01,TShirt,S,South,Retail,5.0,$10.00,51.13
+2024-01-05,T-Shirt,S,West,Retail,15.0,Unknown,147.64
+2024-03-01,T-Shirt,L,East,Retail,5.0,$10.00,51.26
+2024-01-05,Jeans,M,East,Online,20.0,"10,00",201.8
+,Jeans,S,South,Online,5.0,Unknown,147.64
+,TShirt,S,East,Retail,5.0,"10,00",50.98
+,T-Shirt,XL,East,Online,15.0,$10.00,147.64
+,Jeans,S,North,Retail,10.0,"10,00",98.68
+2024-04-15,jeans,L,South,Retail,10.0,$10.00,99.03
+2024-04-15,T-Shirt,L,West,Online,5.0,Unknown,147.64
