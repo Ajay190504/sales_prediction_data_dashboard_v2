@@ -1,0 +1,5 @@
+matplotlib>=3.6
+pmdarima>=2.0
+# optional heavier deps for improved forecasting
+xgboost>=1.7
+openpyxl>=3.1
