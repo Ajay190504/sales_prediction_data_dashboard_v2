@@ -1,132 +1,214 @@
-# Sales Prediction & Data Visualization - v2
+# Sales Prediction & Data Visualization
 
-## 🔍 Project Overview
+## Overview
 
-*Sales Prediction and Data Visualization* is a data analytics and machine learning project that analyzes historical sales data to identify patterns, generate interactive visual insights, and predict future sales trends.  
-The system helps businesses make *data-driven decisions* by forecasting revenue, understanding customer behavior, and optimizing sales strategies.
+Sales Prediction & Data Visualization is a machine learning and analytics platform designed to transform historical sales data into actionable business insights. The application combines data preprocessing, exploratory data analysis (EDA), interactive visualizations, and predictive modeling to help businesses understand past performance and forecast future sales trends.
 
-This project combines *data preprocessing, exploratory data analysis (EDA), visualization dashboards, and predictive modeling* to deliver a complete sales intelligence solution.
-
----
-
-## 🎯 Objectives
-
-- Clean and preprocess raw sales datasets.
-- Visualize sales performance using charts and dashboards.
-- Analyze trends based on:
-  - Time (daily, monthly, yearly)
-  - Product categories
-  - Regions and customers
-- Build machine learning models to *predict future sales*.
-- Provide actionable insights to improve business planning.
+The system enables users to upload datasets, analyze sales patterns, visualize key metrics, and generate future sales predictions using machine learning algorithms.
 
 ---
 
-## 🛠️ Technologies Used
+## Features
 
-| Category            | Tools / Libraries |
-|---------------------|------------------|
-| Programming Language | Python |
-| Data Handling       | Pandas, NumPy |
-| Visualization       | Matplotlib, Seaborn, Plotly |
-| Machine Learning    | Scikit-learn |
-| Environment         | Jupyter Notebook / VS Code |
-| Dataset Format      | CSV / Excel |
+### Data Processing
+- Upload CSV and Excel datasets
+- Automated data cleaning and preprocessing
+- Missing value handling
+- Duplicate record removal
+- Data validation and formatting
 
----
+### Data Analysis
+- Exploratory Data Analysis (EDA)
+- Statistical summaries
+- Trend analysis
+- Correlation analysis
 
-## 📈 Key Features
+### Interactive Visualizations
+- Monthly sales trends
+- Revenue analysis
+- Product-wise performance charts
+- Region-wise sales distribution
+- Customer behavior analysis
+- Forecast visualization
 
-- 📂 Import and process large sales datasets  
-- 🧹 Handle missing values and data inconsistencies  
-- 📊 Interactive data visualization dashboards  
-- 🔎 Exploratory Data Analysis (EDA)  
-- 🤖 Predictive sales model using regression algorithms  
-- 📅 Future sales forecasting  
-- 📄 Performance evaluation using MAE, RMSE, R²  
+### Machine Learning
+- Regression-based sales forecasting
+- Future sales prediction
+- Model performance evaluation
 
----
-
-## ⚙️ Workflow
-
-1. *Data Collection* – Load historical sales dataset  
-2. *Data Cleaning* – Remove null values, format columns  
-3. *EDA & Visualization* – Generate graphs for insights  
-4. *Feature Engineering* – Extract useful features  
-5. *Model Training* – Train ML regression models  
-6. *Prediction* – Forecast upcoming sales  
-7. *Evaluation* – Validate model accuracy  
+### Performance Metrics
+- Mean Absolute Error (MAE)
+- Root Mean Square Error (RMSE)
+- R² Score
 
 ---
 
-## 📊 Sample Visualizations
+## Technology Stack
 
-- Monthly Sales Trend Line Chart  
-- Product-wise Revenue Bar Chart  
-- Region-wise Sales Heatmap  
-- Sales Forecast Graph  
+### Backend
+- Python
+- Flask
+
+### Data Processing
+- Pandas
+- NumPy
+
+### Data Visualization
+- Plotly
+- Matplotlib
+
+### Machine Learning
+- Scikit-learn
+
+### Deployment
+- Render
+- Docker
 
 ---
 
-## 🚀 Applications
+## Project Workflow
 
-- Business sales forecasting  
-- Inventory planning  
-- Marketing strategy optimization  
-- Financial performance tracking  
+1. Load historical sales data
+2. Clean and preprocess the dataset
+3. Perform exploratory data analysis
+4. Generate visual insights
+5. Train machine learning models
+6. Predict future sales trends
+7. Evaluate model performance
+8. Display results through dashboards
 
 ---
 
-## 📌 Conclusion
+## Installation
 
-This project demonstrates the effective use of *data analytics and machine learning* in predicting business sales and visualizing meaningful insights. It provides a powerful tool for organizations to understand past performance and plan for future growth with confidence.
+### Clone Repository
 
-Run:
+```bash
+git clone https://github.com/Ajay190504/sales_prediction_data_dashboard_v2.git
+cd sales_prediction_data_dashboard_v2
+```
+
+### Create Virtual Environment
+
+```bash
 python -m venv venv
+```
+
+### Activate Environment
+
+Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+Linux/Mac:
+
+```bash
 source venv/bin/activate
+```
+
+### Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
+
+### Run Application
+
+```bash
 python app.py
-Open http://localhost:5000
+```
 
-Deploying to Render (recommended quick path)
--------------------------------------------
+Open:
 
-1. Commit and push this repository to GitHub (or your preferred Git host).
-2. Sign in to https://render.com and create a new Web Service.
-3. Connect your GitHub account and pick the repository containing this project.
-4. Configure the service:
-	- Build Command: pip install -r requirements-render.txt
-	- Start Command: gunicorn -w 4 -b 0.0.0.0:$PORT app:app
-	- Environment: set `FLASK_ENV=production` (Render sets sensible defaults but set this for clarity)
-5. Choose an instance plan (free plans can work for light usage).
-6. Create the service and watch the build logs.
+```text
+http://localhost:5000
+```
 
-Notes:
-- The file `requirements-render.txt` is a trimmed dependency list that omits heavy optional packages (for example `xgboost` and `pmdarima`) to reduce build time and memory usage. If you need those features, use `requirements.txt` instead but expect longer builds and larger runtime memory.
-- Render's filesystem is ephemeral. Session files written to `sessions/` will not persist across automatic redeploys or machine restarts. For durable storage, configure an external storage (S3, database, or persistent disk) and update `app.py` to use that storage for session artifacts.
+---
 
-A Dockerfile has been added to the repository for reproducible builds. Below are quick Docker build and run instructions you can use locally or in CI. These commands are tailored for PowerShell on Windows.
+## Deployment on Render
 
-Build (uses the trimmed `requirements-render.txt` by default):
+### Build Command
 
-```powershell
+```bash
+pip install -r requirements-render.txt
+```
+
+### Start Command
+
+```bash
+gunicorn -w 4 -b 0.0.0.0:$PORT app:app
+```
+
+### Environment Variable
+
+```text
+FLASK_ENV=production
+```
+
+---
+
+## Docker Deployment
+
+### Build Image
+
+```bash
 docker build -t sales-pred-app .
 ```
 
-If you want to build with the full `requirements.txt` instead, run:
+### Run Container
 
-```powershell
-docker build --build-arg REQ=requirements.txt -t sales-pred-app:full .
-```
-
-Run:
-
-```powershell
+```bash
 docker run -p 5000:5000 --rm -e FLASK_ENV=production sales-pred-app
 ```
 
-Notes on Docker:
-- The included `Dockerfile` is based on `python:3.11-slim` and installs dependencies from the chosen requirements file. It exposes port 5000 to match the app's Gunicorn start command.
-- The `.dockerignore` excludes `sessions/` and other large or sensitive files to keep the image small. If you require session persistence, mount a host directory or use cloud storage (S3) and update `app.py` accordingly.
+---
 
-If you'd like, I can also add a multi-stage Dockerfile that builds wheels for optional heavy dependencies (xgboost/pmdarima) to speed up deploys, or create a GitHub Actions workflow to build and push container images automatically.
+## Applications
+
+- Sales Forecasting
+- Revenue Analysis
+- Inventory Planning
+- Demand Prediction
+- Business Intelligence
+- Financial Reporting
+- Marketing Strategy Optimization
+
+---
+
+## Future Enhancements
+
+- Deep Learning Forecasting Models
+- Real-Time Data Streaming
+- Advanced Business Intelligence Reports
+- Multi-User Support
+- Cloud Database Integration
+- AI-Powered Sales Recommendations
+
+---
+
+## Screenshots
+
+### Dashboard
+Add dashboard screenshot here
+
+### Sales Trends
+Add sales trend chart screenshot here
+
+### Forecasting Results
+Add prediction results screenshot here
+
+### Data Analysis
+Add EDA screenshots here
+
+---
+
+## Author
+
+**Ajay D. Waghmare**
+
+B.Tech Computer Science & Engineering
+
+Java Full Stack Developer | Machine Learning Enthusiast | Data Analytics Practitioner
